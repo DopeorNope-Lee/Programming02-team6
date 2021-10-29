@@ -1,0 +1,5 @@
+C:/Users/Lee/OneDrive - handong.edu/2021-2학기/프로그래밍02/Team Project/build-FristAppDraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/FirstAppDraft.dir
+C:/Users/Lee/OneDrive - handong.edu/2021-2학기/프로그래밍02/Team Project/build-FristAppDraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Lee/OneDrive - handong.edu/2021-2학기/프로그래밍02/Team Project/build-FristAppDraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lee/OneDrive - handong.edu/2021-2학기/프로그래밍02/Team Project/build-FristAppDraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/FirstAppDraft_autogen_timestamp_deps.dir
+C:/Users/Lee/OneDrive - handong.edu/2021-2학기/프로그래밍02/Team Project/build-FristAppDraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/FirstAppDraft_autogen.dir
