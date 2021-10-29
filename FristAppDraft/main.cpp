@@ -1,10 +1,10 @@
 #include "mainwindow.h"
+
+#include <QApplication>
 #include <QSqlDriver>
-#include <QSqlError>
 #include <QSqlDatabase>
 #include <QSqlQuery>
 
-#include <QApplication>
 
 int main(int argc, char *argv[])
 {
