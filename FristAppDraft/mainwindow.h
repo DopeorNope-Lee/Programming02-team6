@@ -18,6 +18,8 @@ public:
 private slots:
     void on_Planningbutton_clicked();
 
+    void on_Expensebutton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

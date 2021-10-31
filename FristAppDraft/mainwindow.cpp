@@ -2,6 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "planning.h"
 #include "expense.h"
+#include "./ui_planning.h"
 #include <QApplication>
 #include <QSqlDriver>
 #include <QSqlDatabase>
@@ -24,10 +25,17 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Planningbutton_clicked()
 {
-    Planning.show();
-    this->hide();
+    Planning plan;
 
 
+}
 
+
+void MainWindow::on_Expensebutton_clicked()
+{
+    expense exp;
+    exp.show();
+    exp.setModal(true);
+    exp.exec();
 }
 
