@@ -19,6 +19,10 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        resourse.qrc
+        planning.cpp
+        planning.h
+        planning.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

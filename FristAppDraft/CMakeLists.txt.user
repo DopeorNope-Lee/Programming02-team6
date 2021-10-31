@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD
 <!-- Written by QtCreator 5.0.0, 2021-10-29T16:51:13. -->
+=======
+<!-- Written by QtCreator 5.0.0, 2021-10-29T17:14:04. -->
+>>>>>>> 7ba1524dd20b1c02f790539006ab9b84209cb763
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -292,15 +296,25 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">setup</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.setup</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">setup</value>
+=======
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">FirstAppDraft</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.FirstAppDraft</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">FirstAppDraft</value>
+>>>>>>> 7ba1524dd20b1c02f790539006ab9b84209cb763
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+<<<<<<< HEAD
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/82106/Documents/build-setup-Desktop_Qt_6_1_3_MinGW_64_bit-Debug</value>
+=======
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/Lee/OneDrive - handong.edu/2021-2학기/프로그래밍02/Team Project/build-FristAppDraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug</value>
+>>>>>>> 7ba1524dd20b1c02f790539006ab9b84209cb763
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
