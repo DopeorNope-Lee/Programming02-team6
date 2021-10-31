@@ -24,8 +24,8 @@ MainWindow::~MainWindow()
 void MainWindow::on_Planningbutton_clicked()
 {
     Planning planning;
-    planning.setModal(true);
-    planning.exec();
+    planning.show();
+
 
 
 }
