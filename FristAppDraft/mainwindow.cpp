@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "planning.h"
+#include "expense.h"
 #include <QApplication>
 #include <QSqlDriver>
 #include <QSqlDatabase>
