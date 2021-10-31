@@ -21,6 +21,7 @@ set(PROJECT_SOURCES
         mainwindow.ui
         planning.cpp
         planning.h
+        planning.ui
         resourse.qrc
 )
 

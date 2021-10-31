@@ -23,8 +23,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Planningbutton_clicked()
 {
-    Planning planning;
-    planning.show();
+    Planning.show();
+    this->hide();
 
 
 
