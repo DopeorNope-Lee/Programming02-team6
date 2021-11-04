@@ -4,5 +4,6 @@
         <file>resourcefile/MAIN ICON.png</file>
         <file>resourcefile/MAIN ICON2.png</file>
         <file>resourcefile/mint.png</file>
+        <file>resourcefile/plan.jpg.png</file>
     </qresource>
 </RCC>

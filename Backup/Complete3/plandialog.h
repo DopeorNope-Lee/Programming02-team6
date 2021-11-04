@@ -18,6 +18,8 @@ public:
 private slots:
     void on_closeButton_clicked();
 
+    void on_AddButton_clicked();
+
 private:
     Ui::planDialog *ui;
 };

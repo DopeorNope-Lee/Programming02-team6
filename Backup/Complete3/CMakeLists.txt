@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(Complete2 VERSION 0.1 LANGUAGES CXX)
+project(Complete3 VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -11,8 +11,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets Sql REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Sql REQUIRED)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -26,10 +26,13 @@ set(PROJECT_SOURCES
         plandialog.h
         plandialog.ui
         images.qrc
+        add_expense.cpp
+        add_expense.h
+        add_expense.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(Complete2
+    qt_add_executable(Complete3
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
@@ -39,26 +42,26 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 # For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
-        add_library(Complete2 SHARED
+        add_library(Complete3 SHARED
             ${PROJECT_SOURCES}
         )
 # Define properties for Android with Qt 5 after find_package() calls as:
 #    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
-        add_executable(Complete2
+        add_executable(Complete3
             ${PROJECT_SOURCES}
         )
     endif()
 endif()
 
-target_link_libraries(Complete2 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Complete3 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Sql)
 
-set_target_properties(Complete2 PROPERTIES
+set_target_properties(Complete3 PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
 )
 
 if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(Complete2)
+    qt_finalize_executable(Complete3)
 endif()
