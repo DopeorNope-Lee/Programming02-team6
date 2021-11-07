@@ -21,7 +21,7 @@ public:
     QSqlDatabase mydb;
     bool connOpen(){
         mydb=QSqlDatabase::addDatabase("QSQLITE");
-        mydb.setDatabaseName("./expense.db");
+        mydb.setDatabaseName("./database.db");
 
         if(!mydb.open()){
             qDebug() << ("Failed to open the database");
@@ -41,6 +41,8 @@ private slots:
     void on_pushButton_clicked();
 
     void on_pushButton_4_clicked();
+
+    void on_pushButton_5_clicked();
 
 private:
     Ui::add_expense *ui;

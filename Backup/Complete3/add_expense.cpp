@@ -20,24 +20,53 @@ add_expense::~add_expense()
 
 void add_expense::on_pushButton_clicked()
 {
+    //ADD TO DISPLAY
+    ui->planningWidget->insertRow(ui->planningWidget->rowCount());
+    int amount= ui->line_money_2->text().toInt();//amount
+    QString textcat = ui->CategoryBox->currentText();
+    QString des= ui->line_descript_2->text();//description
+    QString dating=ui->dateEdit->text();
+    //for SQL
+    QString yr = "";
+    QString mon = "";
+    QString dayday = "";
+    for (int i=0;i<4;++i)
+    {
+        yr+=ui->dateEdit->text()[i];
+    };
+    for (int i=0;i<3;++i)
+    {
+        mon+= ui->dateEdit->text()[i+5];
+    }
+    for (int i=0; i<2 ; ++i)
+    {
+        dayday+=ui->dateEdit->text()[9+i];
+    }
+    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 0, new QTableWidgetItem(dating));
+    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 1, new QTableWidgetItem(textcat));
+    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 2, new QTableWidgetItem(QString::number(amount)));
+    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 3, new QTableWidgetItem(des));
     add_expense obj;
-    QString Year,Month,Week,Day,Category,Money;
-    Year=ui->Text_year->text();
-    Month=ui->Text_month->text();
-    Week=ui->Text_week->text();
-    Day=ui->Text_day->text();
-    Category=ui->Text_category->text();
-    Money=ui->Text_money->text();
+    QString Key,Year,Month,Day,Category,Money,Description;
+    Year = yr;
+    Month = mon;
+    Day=dayday;
+    Category = ui->CategoryBox->currentText();
+    Money = ui->line_money_2->text();
+    Description = ui->line_descript_2->text();
 
     obj.connOpen();
+
     QSqlQuery qry;
-    qry.prepare("insert into expense values(:Year,:Month,:Week,:Day,:Category,:Money)");
+    qry.prepare("insert into Real values(:Key,:Year,:Month,:Day,:Category,:Amount,:Description)");
     qry.bindValue(":Year",Year);
     qry.bindValue(":Month",Month);
-    qry.bindValue(":Week",Week);
     qry.bindValue(":Day",Day);
     qry.bindValue(":Category",Category);
-    qry.bindValue(":Money",Money);
+    qry.bindValue(":Amount",Money);
+    qry.bindValue(":Description",Description);
+
+
 
     if(qry.exec())
     {
@@ -53,6 +82,21 @@ void add_expense::on_pushButton_clicked()
 
 void add_expense::on_pushButton_4_clicked()
 {
-    close();
+    this->close();
+}
+
+
+void add_expense::on_pushButton_5_clicked()
+{
+    ui->CategoryBox->insertItem(ui->CategoryBox->count()-1,ui->lineEdit->text());
+    QMessageBox MsgBox;
+    MsgBox.setWindowTitle("Saved");
+    MsgBox.setInformativeText(ui->lineEdit->text()+" saved at category! \n");
+    MsgBox.setStandardButtons(QMessageBox::Ok );
+    MsgBox.setDefaultButton(QMessageBox::Ok);
+    if ( MsgBox.exec() == QMessageBox::Ok )
+    {
+        MsgBox.close();
+    }
 }
 

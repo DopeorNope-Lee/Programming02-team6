@@ -1,0 +1,18 @@
+# ninja log v5
+13	459	6579088948342503	Complete3_autogen/mocs_compilation.cpp	139750b36bb7f919
+13	459	6579088948342503	Complete3_autogen/timestamp	139750b36bb7f919
+13	459	6579088948342503	C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Complete3_autogen/timestamp	139750b36bb7f919
+579	3026	6579000937440714	CMakeFiles/Complete3.dir/main.cpp.obj	c6b6358399d6908c
+13	459	6579088948342503	C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Complete3_autogen/mocs_compilation.cpp	139750b36bb7f919
+1761	1866	6577195299457645	Complete3_autogen/EWIEGA46WW/qrc_images.cpp	785b39381e08fd9d
+1761	1866	6577195299457645	C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Complete3_autogen/EWIEGA46WW/qrc_images.cpp	785b39381e08fd9d
+1930	2134	6577195302152269	CMakeFiles/Complete3.dir/Complete3_autogen/EWIEGA46WW/qrc_images.cpp.obj	f7a3e233458e65fb
+682	3479	6579088256624072	CMakeFiles/Complete3.dir/addcontactdialog.cpp.obj	2b1a6c58ea669771
+5	841	6579088966895296	build.ninja	1c31c6d433cb79df
+694	5678	6579088278643430	CMakeFiles/Complete3.dir/planning.cpp.obj	8933520d9b79b9da
+1782	6020	6579079802647058	CMakeFiles/Complete3.dir/Complete3_autogen/mocs_compilation.cpp.obj	fe59ff1cdf157be7
+729	5599	6579088277844605	CMakeFiles/Complete3.dir/add_expense.cpp.obj	bd347b7b6e11e4f8
+681	5599	6579085400325933	CMakeFiles/Complete3.dir/mainwindow.cpp.obj	511c270ca46c0b14
+5655	6251	6579085406616677	Complete3.exe	62034325cf74ba64
+717	5550	6579088277351886	CMakeFiles/Complete3.dir/category.cpp.obj	664fbfd1d7d184cf
+705	5730	6579088279157615	CMakeFiles/Complete3.dir/planningw.cpp.obj	fd9660519276542d

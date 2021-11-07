@@ -1,7 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "plandialog.h"
-#include "ui_plandialog.h"
+
+#include "planning.h"
+#include "ui_planning.h"
 #include "add_expense.h"
 #include "ui_add_expense.h"
 #include <QtSql>
@@ -25,7 +26,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_planning_clicked()
 {
-    planDialog plan;
+    Planning plan;
     plan.setModal(true);
     plan.exec();
 }

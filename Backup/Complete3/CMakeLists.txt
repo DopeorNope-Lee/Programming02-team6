@@ -22,13 +22,17 @@ set(PROJECT_SOURCES
         addcontactdialog.cpp
         addcontactdialog.h
         addcontactdialog.ui
-        plandialog.cpp
-        plandialog.h
-        plandialog.ui
+        planning.cpp
+        planning.h
+        planning.ui
         images.qrc
         add_expense.cpp
         add_expense.h
         add_expense.ui
+        category.cpp
+        category.h
+        category.ui
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
