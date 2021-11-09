@@ -10,12 +10,18 @@
 #include <QFileInfo>
 #include <QMessageBox>
 #include "stdlib.h"
+#include "monitoring2.h"
+#include "monitoring1.h"
+#include "monitoring3.h"
+#include "monitoring.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Buddy Budgetting");
 }
 
 MainWindow::~MainWindow()
@@ -54,5 +60,13 @@ void MainWindow::on_exit_clicked()
         exit(0);
     }
 
+}
+
+
+void MainWindow::on_mornitoring_clicked()
+{
+    Monitoring monitor_m;
+    monitor_m.setModal(true);
+    monitor_m.exec();
 }
 

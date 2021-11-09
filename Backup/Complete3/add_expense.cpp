@@ -4,24 +4,29 @@
 #include <QtDebug>
 #include <QFileInfo>
 #include <QMessageBox>
-
+#include <QTableWidget>
+#include <QDebug>
 
 add_expense::add_expense(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::add_expense)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Expense");
 }
 
 add_expense::~add_expense()
+
 {
     delete ui;
 }
 
+
+
 void add_expense::on_pushButton_clicked()
 {
     //ADD TO DISPLAY
-    ui->planningWidget->insertRow(ui->planningWidget->rowCount());
+    ui->ExpenseWidget->insertRow(ui->ExpenseWidget->rowCount());
     int amount= ui->line_money_2->text().toInt();//amount
     QString textcat = ui->CategoryBox->currentText();
     QString des= ui->line_descript_2->text();//description
@@ -42,12 +47,12 @@ void add_expense::on_pushButton_clicked()
     {
         dayday+=ui->dateEdit->text()[9+i];
     }
-    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 0, new QTableWidgetItem(dating));
-    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 1, new QTableWidgetItem(textcat));
-    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 2, new QTableWidgetItem(QString::number(amount)));
-    ui->planningWidget->setItem(ui->planningWidget->rowCount()-1, 3, new QTableWidgetItem(des));
+    ui->ExpenseWidget->setItem(ui->ExpenseWidget->rowCount()-1, 0, new QTableWidgetItem(dating));
+    ui->ExpenseWidget->setItem(ui->ExpenseWidget->rowCount()-1, 1, new QTableWidgetItem(textcat));
+    ui->ExpenseWidget->setItem(ui->ExpenseWidget->rowCount()-1, 2, new QTableWidgetItem(QString::number(amount)));
+    ui->ExpenseWidget->setItem(ui->ExpenseWidget->rowCount()-1, 3, new QTableWidgetItem(des));
     add_expense obj;
-    QString Key,Year,Month,Day,Category,Money,Description;
+    QString Year,Month,Day,Category,Money,Description;
     Year = yr;
     Month = mon;
     Day=dayday;
@@ -99,4 +104,5 @@ void add_expense::on_pushButton_5_clicked()
         MsgBox.close();
     }
 }
+
 

@@ -50,6 +50,8 @@ private slots:
     void on_cancle_Button_3_clicked();
 
 
+    void on_deleteButton_2_clicked();
+
 private:
     Ui::Planning *ui;
 };

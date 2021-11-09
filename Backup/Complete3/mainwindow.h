@@ -22,6 +22,8 @@ private slots:
 
     void on_exit_clicked();
 
+    void on_mornitoring_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

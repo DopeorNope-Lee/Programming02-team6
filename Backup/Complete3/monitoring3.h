@@ -1,23 +1,24 @@
-#ifndef ADD_EXPENSE_H
-#define ADD_EXPENSE_H
+#ifndef MONITORING3_H
+#define MONITORING3_H
+
+#include <QDialog>
 #include <QtSql>
 #include <QtDebug>
 #include <QFileInfo>
-#include <QMainWindow>
-
-#include <QDialog>
-
+#include <QMessageBox>
+#include <QDebug>
+#include <QString>
 namespace Ui {
-class add_expense;
+class Monitoring3;
 }
 
-class add_expense : public QDialog
+class Monitoring3 : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit add_expense(QWidget *parent = nullptr);
-    ~add_expense();
+    explicit Monitoring3(QWidget *parent = nullptr);
+    ~Monitoring3();
     QSqlDatabase mydb;
     bool connOpen(){
         mydb=QSqlDatabase::addDatabase("QSQLITE");
@@ -38,15 +39,12 @@ public:
 
 
 private slots:
+    void on_cancleButton_clicked();
+
     void on_pushButton_clicked();
 
-    void on_pushButton_4_clicked();
-
-    void on_pushButton_5_clicked();
-
-
 private:
-    Ui::add_expense *ui;
+    Ui::Monitoring3 *ui;
 };
 
-#endif // ADD_EXPENSE_H
+#endif // MONITORING3_H

@@ -32,6 +32,19 @@ set(PROJECT_SOURCES
         category.cpp
         category.h
         category.ui
+        monitoring.cpp
+        monitoring.h
+        monitoring.ui
+        monitoring1.cpp
+        monitoring1.h
+        monitoring1.ui
+        monitoring2.cpp
+        monitoring2.h
+        monitoring2.ui
+        monitoring3.cpp
+        monitoring3.h
+        monitoring3.ui
+
 
 )
 

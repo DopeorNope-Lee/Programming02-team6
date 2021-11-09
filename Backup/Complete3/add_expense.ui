@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>768</width>
-    <height>350</height>
+    <width>745</width>
+    <height>304</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>260</y>
+     <x>430</x>
+     <y>250</y>
      <width>81</width>
      <height>32</height>
     </rect>
@@ -29,8 +29,8 @@
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>260</y>
+     <x>520</x>
+     <y>250</y>
      <width>81</width>
      <height>32</height>
     </rect>
@@ -42,8 +42,8 @@
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>660</x>
-     <y>260</y>
+     <x>620</x>
+     <y>250</y>
      <width>81</width>
      <height>31</height>
     </rect>
@@ -81,7 +81,7 @@
     <rect>
      <x>400</x>
      <y>90</y>
-     <width>331</width>
+     <width>311</width>
      <height>151</height>
     </rect>
    </property>
@@ -266,7 +266,7 @@
     <string>Input</string>
    </property>
   </widget>
-  <widget class="QTableWidget" name="planningWidget">
+  <widget class="QTableWidget" name="ExpenseWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -340,6 +340,32 @@
    </property>
    <property name="displayFormat">
     <string>yyyy-MMM-dd</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>280</y>
+     <width>331</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>70</y>
+     <width>51</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
    </property>
   </widget>
  </widget>

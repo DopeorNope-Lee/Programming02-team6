@@ -14,8 +14,9 @@ Planning::Planning(QWidget *parent) :
     ui(new Ui::Planning)
 {
     ui->setupUi(this);
-}
+    this->setWindowTitle("Planning");
 
+}
 Planning::~Planning()
 {
     delete ui;
@@ -64,22 +65,22 @@ void Planning::on_addButton_clicked()
 
     //
     Planning obj;
-    QString Key,Year,Month,Category,Money,Discription;
-    Year = ui->Text_year->text();
+    QString Key,Year,Month,Category,Money,Description;
+    Year = ui->spinBox->text();
     Month = ui->combo_month->currentText();
     Category = ui->CategoryBox->currentText();
     Money = ui->line_money_2->text();
-    Discription = ui->line_descript_2->text();
+    Description = ui->line_descript_2->text();
 
     obj.connOpen();
 
     QSqlQuery qry;
-    qry.prepare("insert into Plan values(:Key,:Year,:Month,:Category,:Amount,:Discription)");
+    qry.prepare("insert into Plan values(:Key,:Year,:Month,:Category,:Amount,:Description)");
     qry.bindValue(":Year",Year);
     qry.bindValue(":Month",Month);
     qry.bindValue(":Category",Category);
     qry.bindValue(":Amount",Money);
-    qry.bindValue(":Discription",Discription);
+    qry.bindValue(":Description",Description);
 
 
     if(qry.exec())
@@ -103,4 +104,35 @@ void Planning::on_cancle_Button_3_clicked()
 }
 
 
+
+
+void Planning::on_deleteButton_2_clicked()
+{
+    Planning obj;
+    QString Key,Year,Month,Category,Money,Description;
+    Year = ui->spinBox->text();
+    Month = ui->combo_month->currentText();
+    Category = ui->CategoryBox->currentText();
+    Money = ui->line_money_2->text();
+    Description = ui->line_descript_2->text();
+    obj.connOpen();
+
+    QSqlQuery qry;
+    qry.prepare("Delete from Plan where Key ='"+Key+"'");
+    qry.bindValue(":Year",Year);
+    qry.bindValue(":Month",Month);
+    qry.bindValue(":Category",Category);
+    qry.bindValue(":Amount",Money);
+    qry.bindValue(":Description",Description);
+
+
+    if(qry.exec())
+    {
+        QMessageBox::about(this,tr("Delete"),tr("Deleted"));
+        obj.connClose();
+    }
+    else {
+        QMessageBox::critical(this,tr("Error::"),qry.lastError().text());
+    }
+}
 
