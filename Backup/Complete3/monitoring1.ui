@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Monitoring1</class>
+ <widget class="QDialog" name="Monitoring1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;Total Expense&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>600</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(203, 211, 255);
+color:rgb(0,0,0)</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>631</width>
+     <height>471</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>70</y>
+     <width>21</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>σ</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>70</y>
+     <width>171</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>press σ button</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="month_Box">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>ALL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Feb</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Apr</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>May</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jun</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jul</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Aug</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sep</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oct</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nov</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dec</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Month</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>81</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Category</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>50</y>
+     <width>131</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Selected Expense</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Total Expense</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Edit_btn">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>600</y>
+     <width>86</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(203, 211, 255);
+color:rgb(0,0,0)
+</string>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>1</y>
+     <width>691</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(176,193,255)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background_in">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>41</y>
+     <width>661</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(243,243,255)</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>background_in</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>tableView</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>month_Box</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>Edit_btn</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
