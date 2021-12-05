@@ -1,5 +1,0 @@
-C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/Complete3.dir
-C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/Complete3_autogen_timestamp_deps.dir
-C:/Users/Lee/Documents/C++/build-Complete3-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/Complete3_autogen.dir

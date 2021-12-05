@@ -1,0 +1,5 @@
+C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/Finaldraft.dir
+C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/Finaldraft_autogen_timestamp_deps.dir
+C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/Finaldraft_autogen.dir
