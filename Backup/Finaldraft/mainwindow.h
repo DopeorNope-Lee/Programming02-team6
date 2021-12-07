@@ -92,10 +92,23 @@ private slots:
 
     void on_By_category_btn_clicked();
 
-
+    void clear_catewidget();
     void on_plan_combo_month_currentTextChanged(const QString &arg1);
 
     void on_plan_spinBox_textChanged(const QString &arg1);
+
+    void on_plan_plus_btn_clicked();
+
+    void on_expense_plus_btn_clicked();
+
+    void on_Category_btn2_clicked();
+
+    void on_Category_btn_clicked();
+
+
+    void on_Cate_list_pressed(const QModelIndex &index);
+
+    void on_Category_btn_2_clicked();
 
 private:
     Ui::MainWindow *ui;

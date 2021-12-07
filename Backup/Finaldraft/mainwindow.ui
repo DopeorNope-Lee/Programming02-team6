@@ -39,7 +39,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="mainpage">
      <widget class="QLabel" name="main_label">
@@ -286,7 +286,7 @@
        <rect>
         <x>550</x>
         <y>140</y>
-        <width>441</width>
+        <width>451</width>
         <height>231</height>
        </rect>
       </property>
@@ -342,80 +342,77 @@
          <item>
           <layout class="QHBoxLayout" name="plan_horizontalLayout_10">
            <item>
-            <layout class="QVBoxLayout" name="plan_verticalLayout_2">
+            <widget class="QComboBox" name="plan_CategoryBox">
+             <property name="maximumSize">
+              <size>
+               <width>367</width>
+               <height>23</height>
+              </size>
+             </property>
              <item>
-              <widget class="QComboBox" name="plan_CategoryBox">
-               <item>
-                <property name="text">
-                 <string>Food</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Education</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Transportation</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Clothes</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Entertainment</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Communication fee</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>If you want add more input name and press +</string>
-                </property>
-               </item>
-              </widget>
+              <property name="text">
+               <string>Food</string>
+              </property>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="plan_horizontalLayout_2">
-               <item>
-                <widget class="QLineEdit" name="plan_lineEdit"/>
-               </item>
-               <item>
-                <widget class="QPushButton" name="plan_plus_btn">
-                 <property name="minimumSize">
-                  <size>
-                   <width>80</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>+</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
+              <property name="text">
+               <string>Education</string>
+              </property>
              </item>
-            </layout>
+             <item>
+              <property name="text">
+               <string>Transportation</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Clothes</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Entertainment</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Communication fee</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="plan_plus_btn">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>24</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>24</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>+</string>
+             </property>
+            </widget>
            </item>
           </layout>
          </item>
          <item>
           <layout class="QHBoxLayout" name="plan_horizontalLayout_11">
            <item>
-            <widget class="QLineEdit" name="plan_line_money"/>
+            <widget class="QLineEdit" name="plan_line_money">
+             <property name="maximumSize">
+              <size>
+               <width>355</width>
+               <height>23</height>
+              </size>
+             </property>
+            </widget>
            </item>
            <item>
             <widget class="QLabel" name="plan_label_3">
@@ -436,7 +433,14 @@
          <item>
           <layout class="QHBoxLayout" name="plan_horizontalLayout_12">
            <item>
-            <widget class="QLineEdit" name="plan_line_descript"/>
+            <widget class="QLineEdit" name="plan_line_descript">
+             <property name="maximumSize">
+              <size>
+               <width>354</width>
+               <height>23</height>
+              </size>
+             </property>
+            </widget>
            </item>
            <item>
             <widget class="QLabel" name="plan_lable">
@@ -638,6 +642,12 @@
       <layout class="QHBoxLayout" name="plan_horizontalLayout_6">
        <item>
         <widget class="QPushButton" name="plan_addButton">
+         <property name="maximumSize">
+          <size>
+           <width>124</width>
+           <height>24</height>
+          </size>
+         </property>
          <property name="font">
           <font>
            <family>굴림</family>
@@ -655,6 +665,12 @@ color:black;
        </item>
        <item>
         <widget class="QPushButton" name="plan_delete">
+         <property name="maximumSize">
+          <size>
+           <width>123</width>
+           <height>24</height>
+          </size>
+         </property>
          <property name="font">
           <font>
            <family>굴림</family>
@@ -906,9 +922,9 @@ color:black;
      <widget class="QWidget" name="layoutWidget_3">
       <property name="geometry">
        <rect>
-        <x>620</x>
+        <x>630</x>
         <y>140</y>
-        <width>404</width>
+        <width>401</width>
         <height>211</height>
        </rect>
       </property>
@@ -966,48 +982,46 @@ color:black;
            <item>
             <layout class="QVBoxLayout" name="expense_verticalLayout_3">
              <item>
-              <widget class="QComboBox" name="expense_CategoryBox">
-               <item>
-                <property name="text">
-                 <string>Food</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Education</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Transportation</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Clothes</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Entertainment</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Communication fee</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>If you want add more input name and press +</string>
-                </property>
-               </item>
-              </widget>
-             </item>
-             <item>
               <layout class="QHBoxLayout" name="expense_horizontalLayout_5">
                <item>
-                <widget class="QLineEdit" name="expense_lineEdit"/>
+                <widget class="QComboBox" name="expense_CategoryBox">
+                 <property name="maximumSize">
+                  <size>
+                   <width>258</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>Food</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Education</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Transportation</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Clothes</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Entertainment</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Communication fee</string>
+                  </property>
+                 </item>
+                </widget>
                </item>
                <item>
                 <widget class="QPushButton" name="expense_plus_btn">
@@ -1019,7 +1033,7 @@ color:black;
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>16777215</width>
+                   <width>80</width>
                    <height>24</height>
                   </size>
                  </property>
@@ -1603,6 +1617,151 @@ color:rgb(0,0,0);</string>
      <zorder>monitoring_icon3</zorder>
      <zorder>By_category_btn</zorder>
      <zorder>horizontalLayoutWidget_5</zorder>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="Category_btn">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>430</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Category_btn2">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>430</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Go to Back</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Category_btn_2">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>430</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="cateline_edit">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>350</y>
+        <width>361</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Category_lable1">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>190</y>
+        <width>451</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>If you want to delete Category Items, </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Category_lable2">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>280</y>
+        <width>451</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>click the Item and click the delete button.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Category_lbel_main">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>130</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;Category Edit&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>360</y>
+        <width>64</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Input :</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="Cate_list">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>120</y>
+        <width>441</width>
+        <height>371</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>

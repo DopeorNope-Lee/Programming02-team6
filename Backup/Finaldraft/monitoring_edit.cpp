@@ -88,7 +88,8 @@ void Monitoring_edit::on_pushButton_clicked()
 
     if(qry.exec())
     {
-        QMessageBox::critical(this,tr("edit"),tr("updated"));
+        QMessageBox::about(this,tr("edit"),tr("updated"));
+        this->close();
 
     } else
     {

@@ -9,10 +9,15 @@
 #include "monitoring1.h"
 #include "monitoring2.h"
 #include "monitoring3.h"
+#include <QVector>
 
 //global value for check key
 static int value;//planninng
 static int value1;//expense
+//global value for check current page
+static int cur_page;
+//global value for check the seleted row
+static int clickedcat;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -200,7 +205,6 @@ void MainWindow::on_plan_addButton_clicked()
     }
     //load data and update it onscreen
     update_plan_screen();
-    ui->plan_lineEdit->clear();
     ui->plan_line_descript->clear();
     ui->plan_line_money->clear();
 
@@ -240,7 +244,6 @@ void MainWindow::on_expense_Save_btn_clicked()
 
      update_Expense_screen();
      //ADD TO DISPLAY
-     ui->expense_lineEdit->clear();
      ui->expense_line_descript->clear();
      ui->expense_line_money->clear();
 }
@@ -334,5 +337,127 @@ void MainWindow::on_plan_combo_month_currentTextChanged(const QString &arg1)
 void MainWindow::on_plan_spinBox_textChanged(const QString &arg1)
 {
     update_plan_screen();
+}
+void MainWindow::clear_catewidget()
+{
+
+    ui->Cate_list->clear();
+
+}
+
+void MainWindow::on_plan_plus_btn_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(4);
+    ::cur_page=1;
+    clear_catewidget();
+    int plan_cat_num=ui->plan_CategoryBox->count();
+    for (int i=0;i<plan_cat_num;++i)
+    {
+        QString add_a=ui->plan_CategoryBox->itemText(i);
+        ui->Cate_list->addItem(add_a);
+    }
+
+}
+
+
+void MainWindow::on_expense_plus_btn_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(4);
+    ::cur_page=2;
+    clear_catewidget();
+    int expense_cat_num=ui->expense_CategoryBox->count();
+    for (int i=0;i<expense_cat_num;++i)
+    {
+        QString add_a=ui->expense_CategoryBox->itemText(i);
+
+        ui->Cate_list->addItem(add_a);
+    }
+}
+
+
+void MainWindow::on_Category_btn2_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(::cur_page);
+    ui->Cate_list->clear();
+}
+
+
+void MainWindow::on_Category_btn_clicked()
+{
+    QString addthings = ui->cateline_edit->text();
+    ui->Cate_list->addItem(addthings);
+    int num=ui->Cate_list->count();
+    if (::cur_page==2)
+    {
+        ui->expense_CategoryBox->clear();
+        for (int i=0;i<num;++i)
+        {
+            QString addingto=ui->Cate_list->item(i)->text();
+            ui->expense_CategoryBox->insertItem(i,addingto);
+        }
+        QMessageBox MsgBox;
+        MsgBox.setWindowTitle("Saved");
+        MsgBox.setInformativeText(addthings+" saved at category! \n");
+        MsgBox.setStandardButtons(QMessageBox::Ok );
+        MsgBox.setDefaultButton(QMessageBox::Ok);
+        if ( MsgBox.exec() == QMessageBox::Ok )
+        {
+            MsgBox.close();
+        }
+    }
+    else if(::cur_page==1)
+    {
+        ui->plan_CategoryBox->clear();
+        for (int i=0;i<num;++i)
+        {
+            QString addingto=ui->Cate_list->item(i)->text();
+            ui->plan_CategoryBox->insertItem(i,addingto);
+        }
+        QMessageBox MsgBox;
+        MsgBox.setWindowTitle("Saved");
+        MsgBox.setInformativeText(addthings+" saved at category! \n");
+        MsgBox.setStandardButtons(QMessageBox::Ok );
+        MsgBox.setDefaultButton(QMessageBox::Ok);
+        if ( MsgBox.exec() == QMessageBox::Ok )
+        {
+            MsgBox.close();
+        }
+
+    }
+    else{}
+    ui->cateline_edit->clear();
+}
+
+
+
+void MainWindow::on_Cate_list_pressed(const QModelIndex &index)
+{
+    ::clickedcat=ui->Cate_list->selectionModel()->currentIndex().row();
+}
+
+
+void MainWindow::on_Category_btn_2_clicked()
+{
+    ui->Cate_list->takeItem(clickedcat);
+    int num= ui->Cate_list->count();
+    if (::cur_page==2)
+    {
+        ui->expense_CategoryBox->clear();
+        for (int i=0;i<num;++i)
+        {
+            QString addingto=ui->Cate_list->item(i)->text();
+            ui->expense_CategoryBox->insertItem(i,addingto);
+        }
+
+    }
+    else //planning page
+    {
+        ui->plan_CategoryBox->clear();
+        for (int i=0;i<num;++i)
+        {
+            QString addingto=ui->Cate_list->item(i)->text();
+            ui->plan_CategoryBox->insertItem(i,addingto);
+        }
+    }
 }
 

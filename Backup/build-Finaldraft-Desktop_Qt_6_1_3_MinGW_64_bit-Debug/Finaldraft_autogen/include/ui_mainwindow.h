@@ -20,6 +20,7 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpinBox>
@@ -61,10 +62,7 @@ public:
     QLabel *plan_description_2;
     QVBoxLayout *plan_verticalLayout_3;
     QHBoxLayout *plan_horizontalLayout_10;
-    QVBoxLayout *plan_verticalLayout_2;
     QComboBox *plan_CategoryBox;
-    QHBoxLayout *plan_horizontalLayout_2;
-    QLineEdit *plan_lineEdit;
     QPushButton *plan_plus_btn;
     QHBoxLayout *plan_horizontalLayout_11;
     QLineEdit *plan_line_money;
@@ -104,9 +102,8 @@ public:
     QVBoxLayout *expense_verticalLayout_2;
     QHBoxLayout *expense_horizontalLayout_4;
     QVBoxLayout *expense_verticalLayout_3;
-    QComboBox *expense_CategoryBox;
     QHBoxLayout *expense_horizontalLayout_5;
-    QLineEdit *expense_lineEdit;
+    QComboBox *expense_CategoryBox;
     QPushButton *expense_plus_btn;
     QHBoxLayout *expense_horizontalLayout_6;
     QLineEdit *expense_line_money;
@@ -149,6 +146,16 @@ public:
     QHBoxLayout *monit_horizontalLayout_2;
     QLabel *monitoring_icon;
     QLabel *mornitoring;
+    QWidget *page;
+    QPushButton *Category_btn;
+    QPushButton *Category_btn2;
+    QPushButton *Category_btn_2;
+    QLineEdit *cateline_edit;
+    QLabel *Category_lable1;
+    QLabel *Category_lable2;
+    QLabel *Category_lbel_main;
+    QLabel *label;
+    QListWidget *Cate_list;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -265,7 +272,7 @@ public:
 
         layoutWidget = new QWidget(planpage);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(550, 140, 441, 231));
+        layoutWidget->setGeometry(QRect(550, 140, 451, 231));
         plan_horizontalLayout_4 = new QHBoxLayout(layoutWidget);
         plan_horizontalLayout_4->setObjectName(QString::fromUtf8("plan_horizontalLayout_4"));
         plan_horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -299,8 +306,6 @@ public:
         plan_verticalLayout_3->setObjectName(QString::fromUtf8("plan_verticalLayout_3"));
         plan_horizontalLayout_10 = new QHBoxLayout();
         plan_horizontalLayout_10->setObjectName(QString::fromUtf8("plan_horizontalLayout_10"));
-        plan_verticalLayout_2 = new QVBoxLayout();
-        plan_verticalLayout_2->setObjectName(QString::fromUtf8("plan_verticalLayout_2"));
         plan_CategoryBox = new QComboBox(layoutWidget);
         plan_CategoryBox->addItem(QString());
         plan_CategoryBox->addItem(QString());
@@ -308,30 +313,17 @@ public:
         plan_CategoryBox->addItem(QString());
         plan_CategoryBox->addItem(QString());
         plan_CategoryBox->addItem(QString());
-        plan_CategoryBox->addItem(QString());
         plan_CategoryBox->setObjectName(QString::fromUtf8("plan_CategoryBox"));
+        plan_CategoryBox->setMaximumSize(QSize(367, 23));
 
-        plan_verticalLayout_2->addWidget(plan_CategoryBox);
-
-        plan_horizontalLayout_2 = new QHBoxLayout();
-        plan_horizontalLayout_2->setObjectName(QString::fromUtf8("plan_horizontalLayout_2"));
-        plan_lineEdit = new QLineEdit(layoutWidget);
-        plan_lineEdit->setObjectName(QString::fromUtf8("plan_lineEdit"));
-
-        plan_horizontalLayout_2->addWidget(plan_lineEdit);
+        plan_horizontalLayout_10->addWidget(plan_CategoryBox);
 
         plan_plus_btn = new QPushButton(layoutWidget);
         plan_plus_btn->setObjectName(QString::fromUtf8("plan_plus_btn"));
         plan_plus_btn->setMinimumSize(QSize(80, 24));
-        plan_plus_btn->setMaximumSize(QSize(16777215, 24));
+        plan_plus_btn->setMaximumSize(QSize(80, 24));
 
-        plan_horizontalLayout_2->addWidget(plan_plus_btn);
-
-
-        plan_verticalLayout_2->addLayout(plan_horizontalLayout_2);
-
-
-        plan_horizontalLayout_10->addLayout(plan_verticalLayout_2);
+        plan_horizontalLayout_10->addWidget(plan_plus_btn);
 
 
         plan_verticalLayout_3->addLayout(plan_horizontalLayout_10);
@@ -340,6 +332,7 @@ public:
         plan_horizontalLayout_11->setObjectName(QString::fromUtf8("plan_horizontalLayout_11"));
         plan_line_money = new QLineEdit(layoutWidget);
         plan_line_money->setObjectName(QString::fromUtf8("plan_line_money"));
+        plan_line_money->setMaximumSize(QSize(355, 23));
 
         plan_horizontalLayout_11->addWidget(plan_line_money);
 
@@ -356,6 +349,7 @@ public:
         plan_horizontalLayout_12->setObjectName(QString::fromUtf8("plan_horizontalLayout_12"));
         plan_line_descript = new QLineEdit(layoutWidget);
         plan_line_descript->setObjectName(QString::fromUtf8("plan_line_descript"));
+        plan_line_descript->setMaximumSize(QSize(354, 23));
 
         plan_horizontalLayout_12->addWidget(plan_line_descript);
 
@@ -437,6 +431,7 @@ public:
         plan_horizontalLayout_6->setContentsMargins(0, 0, 0, 0);
         plan_addButton = new QPushButton(layoutWidget_4);
         plan_addButton->setObjectName(QString::fromUtf8("plan_addButton"));
+        plan_addButton->setMaximumSize(QSize(124, 24));
         plan_addButton->setFont(font2);
         plan_addButton->setStyleSheet(QString::fromUtf8("background-color:rgb(203, 211, 255);\n"
 "color:black;\n"
@@ -446,6 +441,7 @@ public:
 
         plan_delete = new QPushButton(layoutWidget_4);
         plan_delete->setObjectName(QString::fromUtf8("plan_delete"));
+        plan_delete->setMaximumSize(QSize(123, 24));
         plan_delete->setFont(font2);
         plan_delete->setStyleSheet(QString::fromUtf8("background-color:rgb(203, 211, 255);\n"
 "color:black;\n"
@@ -540,7 +536,7 @@ public:
         ExpenseWidget->setGeometry(QRect(30, 110, 571, 301));
         layoutWidget_3 = new QWidget(expensepage);
         layoutWidget_3->setObjectName(QString::fromUtf8("layoutWidget_3"));
-        layoutWidget_3->setGeometry(QRect(620, 140, 404, 211));
+        layoutWidget_3->setGeometry(QRect(630, 140, 401, 211));
         expense_horizontalLayout_3 = new QHBoxLayout(layoutWidget_3);
         expense_horizontalLayout_3->setObjectName(QString::fromUtf8("expense_horizontalLayout_3"));
         expense_horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -573,6 +569,8 @@ public:
         expense_horizontalLayout_4->setObjectName(QString::fromUtf8("expense_horizontalLayout_4"));
         expense_verticalLayout_3 = new QVBoxLayout();
         expense_verticalLayout_3->setObjectName(QString::fromUtf8("expense_verticalLayout_3"));
+        expense_horizontalLayout_5 = new QHBoxLayout();
+        expense_horizontalLayout_5->setObjectName(QString::fromUtf8("expense_horizontalLayout_5"));
         expense_CategoryBox = new QComboBox(layoutWidget_3);
         expense_CategoryBox->addItem(QString());
         expense_CategoryBox->addItem(QString());
@@ -580,22 +578,15 @@ public:
         expense_CategoryBox->addItem(QString());
         expense_CategoryBox->addItem(QString());
         expense_CategoryBox->addItem(QString());
-        expense_CategoryBox->addItem(QString());
         expense_CategoryBox->setObjectName(QString::fromUtf8("expense_CategoryBox"));
+        expense_CategoryBox->setMaximumSize(QSize(258, 23));
 
-        expense_verticalLayout_3->addWidget(expense_CategoryBox);
-
-        expense_horizontalLayout_5 = new QHBoxLayout();
-        expense_horizontalLayout_5->setObjectName(QString::fromUtf8("expense_horizontalLayout_5"));
-        expense_lineEdit = new QLineEdit(layoutWidget_3);
-        expense_lineEdit->setObjectName(QString::fromUtf8("expense_lineEdit"));
-
-        expense_horizontalLayout_5->addWidget(expense_lineEdit);
+        expense_horizontalLayout_5->addWidget(expense_CategoryBox);
 
         expense_plus_btn = new QPushButton(layoutWidget_3);
         expense_plus_btn->setObjectName(QString::fromUtf8("expense_plus_btn"));
         expense_plus_btn->setMinimumSize(QSize(80, 24));
-        expense_plus_btn->setMaximumSize(QSize(16777215, 24));
+        expense_plus_btn->setMaximumSize(QSize(80, 24));
 
         expense_horizontalLayout_5->addWidget(expense_plus_btn);
 
@@ -842,11 +833,53 @@ public:
         monitoring_icon3->raise();
         By_category_btn->raise();
         horizontalLayoutWidget_5->raise();
+        page = new QWidget();
+        page->setObjectName(QString::fromUtf8("page"));
+        Category_btn = new QPushButton(page);
+        Category_btn->setObjectName(QString::fromUtf8("Category_btn"));
+        Category_btn->setGeometry(QRect(580, 430, 101, 51));
+        Category_btn2 = new QPushButton(page);
+        Category_btn2->setObjectName(QString::fromUtf8("Category_btn2"));
+        Category_btn2->setGeometry(QRect(890, 430, 101, 51));
+        Category_btn_2 = new QPushButton(page);
+        Category_btn_2->setObjectName(QString::fromUtf8("Category_btn_2"));
+        Category_btn_2->setGeometry(QRect(740, 430, 101, 51));
+        cateline_edit = new QLineEdit(page);
+        cateline_edit->setObjectName(QString::fromUtf8("cateline_edit"));
+        cateline_edit->setGeometry(QRect(620, 350, 361, 41));
+        Category_lable1 = new QLabel(page);
+        Category_lable1->setObjectName(QString::fromUtf8("Category_lable1"));
+        Category_lable1->setGeometry(QRect(580, 190, 451, 71));
+        QFont font4;
+        font4.setFamilies({QString::fromUtf8("Arial")});
+        font4.setPointSize(12);
+        font4.setBold(true);
+        Category_lable1->setFont(font4);
+        Category_lable2 = new QLabel(page);
+        Category_lable2->setObjectName(QString::fromUtf8("Category_lable2"));
+        Category_lable2->setGeometry(QRect(580, 280, 451, 16));
+        Category_lable2->setFont(font4);
+        Category_lbel_main = new QLabel(page);
+        Category_lbel_main->setObjectName(QString::fromUtf8("Category_lbel_main"));
+        Category_lbel_main->setGeometry(QRect(580, 130, 191, 51));
+        QFont font5;
+        font5.setFamilies({QString::fromUtf8("Arial")});
+        font5.setPointSize(14);
+        font5.setBold(true);
+        Category_lbel_main->setFont(font5);
+        label = new QLabel(page);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(550, 360, 64, 31));
+        label->setFont(font4);
+        Cate_list = new QListWidget(page);
+        Cate_list->setObjectName(QString::fromUtf8("Cate_list"));
+        Cate_list->setGeometry(QRect(90, 120, 441, 371));
+        stackedWidget->addWidget(page);
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(3);
+        stackedWidget->setCurrentIndex(4);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -876,7 +909,6 @@ public:
         plan_CategoryBox->setItemText(3, QCoreApplication::translate("MainWindow", "Clothes", nullptr));
         plan_CategoryBox->setItemText(4, QCoreApplication::translate("MainWindow", "Entertainment", nullptr));
         plan_CategoryBox->setItemText(5, QCoreApplication::translate("MainWindow", "Communication fee", nullptr));
-        plan_CategoryBox->setItemText(6, QCoreApplication::translate("MainWindow", "If you want add more input name and press +", nullptr));
 
         plan_plus_btn->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
         plan_label_3->setText(QCoreApplication::translate("MainWindow", "$", nullptr));
@@ -932,7 +964,6 @@ public:
         expense_CategoryBox->setItemText(3, QCoreApplication::translate("MainWindow", "Clothes", nullptr));
         expense_CategoryBox->setItemText(4, QCoreApplication::translate("MainWindow", "Entertainment", nullptr));
         expense_CategoryBox->setItemText(5, QCoreApplication::translate("MainWindow", "Communication fee", nullptr));
-        expense_CategoryBox->setItemText(6, QCoreApplication::translate("MainWindow", "If you want add more input name and press +", nullptr));
 
         expense_plus_btn->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
         expense_label->setText(QCoreApplication::translate("MainWindow", "$", nullptr));
@@ -962,6 +993,13 @@ public:
         monit_exit_btn->setText(QCoreApplication::translate("MainWindow", "EXIT", nullptr));
         monitoring_icon->setText(QString());
         mornitoring->setText(QCoreApplication::translate("MainWindow", "Monitoring", nullptr));
+        Category_btn->setText(QCoreApplication::translate("MainWindow", "Add", nullptr));
+        Category_btn2->setText(QCoreApplication::translate("MainWindow", "Go to Back", nullptr));
+        Category_btn_2->setText(QCoreApplication::translate("MainWindow", "Delete", nullptr));
+        Category_lable1->setText(QCoreApplication::translate("MainWindow", "If you want to delete Category Items, ", nullptr));
+        Category_lable2->setText(QCoreApplication::translate("MainWindow", "click the Item and click the delete button.", nullptr));
+        Category_lbel_main->setText(QCoreApplication::translate("MainWindow", "<Category Edit>", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Input :", nullptr));
     } // retranslateUi
 
 };

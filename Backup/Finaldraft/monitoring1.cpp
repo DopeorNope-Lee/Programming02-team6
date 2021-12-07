@@ -8,7 +8,7 @@
 #include <QDebug>
 #include <QString>
 
-
+//in this case if we delete modal=> can load data, so we leave it
 Monitoring1::Monitoring1(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Monitoring1)
@@ -45,7 +45,6 @@ void Monitoring1::on_pushButton_3_clicked()
         qry->exec();
         modal->setQuery(*qry);
         ui->tableView->setModel(modal);
-        QSqlDatabase::removeDatabase("database");
 
     }
     else if(select_month == "ALL")
@@ -72,7 +71,9 @@ void Monitoring1::on_pushButton_3_clicked()
         ui->tableView->setModel(modal);
 
     }
-    QSqlDatabase::removeDatabase("database");
+
+    delete qry;
+
 
 }
 
@@ -88,6 +89,8 @@ void Monitoring1::on_pushButton_2_clicked()
     modal->setQuery(*qry);
     ui->tableView->setModel(modal);
     qDebug() << (modal->rowCount());
+    delete qry;
+
 
 }
 
@@ -107,6 +110,7 @@ void Monitoring1::on_pushButton_4_clicked()
     }
     ui->comboBox->addItem("ALL");
     qDebug() << (modal->rowCount());
+
 
 }
 
