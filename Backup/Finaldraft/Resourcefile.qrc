@@ -1,16 +1,15 @@
 <RCC>
     <qresource prefix="/">
-        <file>resourcefile/background.jpg</file>
-        <file>resourcefile/expense.png</file>
+        <file>resourcefile/image-p.png</file>
+        <file>resourcefile/mainwindow1 (1).png</file>
+        <file>resourcefile/button.png</file>
+        <file>resourcefile/button2.png</file>
+        <file>resourcefile/button3.png</file>
         <file>resourcefile/expense1.png</file>
         <file>resourcefile/expense2.png</file>
         <file>resourcefile/expense3.png</file>
-        <file>resourcefile/MAIN ICON.png</file>
-        <file>resourcefile/MAIN ICON2.png</file>
-        <file>resourcefile/mainwindow.jpg</file>
-        <file>resourcefile/mint.png</file>
-        <file>resourcefile/monitoring.png</file>
-        <file>resourcefile/plan.jpg.png</file>
-        <file>resourcefile/planning.png</file>
+        <file>resourcefile/image-e.png</file>
+        <file>resourcefile/image-m.png</file>
+        <file>resourcefile/background.png</file>
     </qresource>
 </RCC>

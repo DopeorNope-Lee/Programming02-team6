@@ -7,6 +7,8 @@
 #include <QMessageBox>
 #include <QDebug>
 #include <QString>
+#include "monitoring_edit.h"
+#include <QString>
 
 namespace Ui {
 class Monitoring1;

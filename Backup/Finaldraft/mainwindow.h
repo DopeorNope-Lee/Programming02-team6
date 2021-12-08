@@ -4,6 +4,14 @@
 #include <QMainWindow>
 #include <QtSql>
 #include <QtDebug>
+#include "monitoring1.h"
+#include "monitoring2.h"
+#include "monitoring3.h"
+#include <QFileInfo>
+#include <QMessageBox>
+#include <QTableWidget>
+#include <QDebug>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

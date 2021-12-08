@@ -1,0 +1,17 @@
+# ninja log v5
+15	590	6606792799041178	Finaldraft_autogen/timestamp	46e3d8362cd5f08
+15	590	6606792799041178	Finaldraft_autogen/mocs_compilation.cpp	46e3d8362cd5f08
+745	1832	6606785554387684	CMakeFiles/Finaldraft.dir/Finaldraft_autogen/EWIEGA46WW/qrc_Resourcefile.cpp.obj	546e2cbf179e84d7
+15	590	6606792799041178	C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/timestamp	46e3d8362cd5f08
+15	590	6606792799041178	C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/mocs_compilation.cpp	46e3d8362cd5f08
+575	703	6606785543188045	Finaldraft_autogen/EWIEGA46WW/qrc_Resourcefile.cpp	a7d9c3c046798e9
+1788	8505	6606792186984796	CMakeFiles/Finaldraft.dir/monitoring_edit.cpp.obj	dc402571cfb599af
+575	703	6606785543188045	C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/EWIEGA46WW/qrc_Resourcefile.cpp	a7d9c3c046798e9
+1737	8185	6606792183704819	CMakeFiles/Finaldraft.dir/main.cpp.obj	b8692990d8cfbd48
+1713	8381	6606792185664783	CMakeFiles/Finaldraft.dir/Finaldraft_autogen/mocs_compilation.cpp.obj	d541f8bb83498487
+1767	8531	6606792187244777	CMakeFiles/Finaldraft.dir/monitoring2.cpp.obj	9f3335ab1e5a8cf3
+1723	8425	6606792186144781	CMakeFiles/Finaldraft.dir/monitoring1.cpp.obj	1d9e66ebb77c9b72
+1804	8558	6606792187524799	CMakeFiles/Finaldraft.dir/monitoring3.cpp.obj	821441373ad1ab0
+1751	8934	6606792191244774	CMakeFiles/Finaldraft.dir/mainwindow.cpp.obj	d6766e0a8a64537
+8935	9558	6606792197255297	Finaldraft.exe	cc0734d9b3ce3b4c
+5	796	6606792814621904	build.ninja	b11f89633cc585a9

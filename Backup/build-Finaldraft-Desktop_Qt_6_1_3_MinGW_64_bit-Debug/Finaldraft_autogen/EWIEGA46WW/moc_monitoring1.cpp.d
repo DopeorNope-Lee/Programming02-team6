@@ -516,4 +516,5 @@ C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h

@@ -144,7 +144,7 @@ public:
     {
         Monitoring1->setWindowTitle(QCoreApplication::translate("Monitoring1", "Dialog", nullptr));
         label->setText(QCoreApplication::translate("Monitoring1", "<Total Expense>", nullptr));
-        pushButton->setText(QCoreApplication::translate("Monitoring1", "Cancel", nullptr));
+        pushButton->setText(QCoreApplication::translate("Monitoring1", "Close", nullptr));
         pushButton_4->setText(QCoreApplication::translate("Monitoring1", "\317\203", nullptr));
         comboBox->setItemText(0, QCoreApplication::translate("Monitoring1", "press \317\203 button", nullptr));
 

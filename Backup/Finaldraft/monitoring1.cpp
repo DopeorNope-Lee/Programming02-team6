@@ -1,12 +1,7 @@
 #include "monitoring1.h"
-#include "monitoring_edit.h"
+
 #include "ui_monitoring1.h"
-#include <QtSql>
-#include <QtDebug>
-#include <QFileInfo>
-#include <QMessageBox>
-#include <QDebug>
-#include <QString>
+
 
 //in this case if we delete modal=> can load data, so we leave it
 Monitoring1::Monitoring1(QWidget *parent) :

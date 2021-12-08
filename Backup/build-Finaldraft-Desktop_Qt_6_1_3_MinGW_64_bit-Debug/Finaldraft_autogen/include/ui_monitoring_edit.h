@@ -37,35 +37,20 @@ public:
     QSpacerItem *horizontalSpacer;
     QPushButton *pushButton_3;
     QTableView *tableView;
-    QWidget *layoutWidget1;
-    QVBoxLayout *verticalLayout_4;
-    QVBoxLayout *verticalLayout_2;
-    QVBoxLayout *verticalLayout;
-    QHBoxLayout *horizontalLayout;
-    QLabel *label;
-    QSpacerItem *horizontalSpacer_2;
-    QLineEdit *Year_edit;
-    QHBoxLayout *horizontalLayout_2;
-    QLabel *label_2;
-    QSpacerItem *horizontalSpacer_3;
-    QLineEdit *Month_edit;
-    QHBoxLayout *horizontalLayout_3;
-    QLabel *label_3;
-    QSpacerItem *horizontalSpacer_4;
-    QLineEdit *Day_edit;
-    QHBoxLayout *horizontalLayout_4;
-    QLabel *label_4;
-    QSpacerItem *horizontalSpacer_5;
-    QLineEdit *Cate_edit;
-    QHBoxLayout *horizontalLayout_5;
-    QLabel *label_5;
-    QSpacerItem *horizontalSpacer_6;
-    QLineEdit *Amount_edit;
-    QHBoxLayout *horizontalLayout_7;
-    QLabel *label_6;
-    QSpacerItem *horizontalSpacer_7;
-    QLineEdit *Desc_edit;
     QLabel *label_7;
+    QLineEdit *Year_edit;
+    QLineEdit *Month_edit;
+    QLabel *label;
+    QLabel *label_2;
+    QLabel *label_3;
+    QLineEdit *Day_edit;
+    QLabel *label_4;
+    QLineEdit *Cate_edit;
+    QLabel *label_5;
+    QLineEdit *Amount_edit;
+    QLabel *label_6;
+    QLineEdit *Desc_edit;
+    QLabel *background;
 
     void setupUi(QDialog *Monitoring_edit)
     {
@@ -74,10 +59,14 @@ public:
         Monitoring_edit->resize(543, 309);
         pushButton = new QPushButton(Monitoring_edit);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(290, 270, 113, 32));
+        pushButton->setGeometry(QRect(270, 270, 113, 32));
+        pushButton->setStyleSheet(QString::fromUtf8("background-color:rgb(203, 211, 255);\n"
+"color:black;"));
         pushButton_2 = new QPushButton(Monitoring_edit);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(420, 270, 113, 32));
+        pushButton_2->setGeometry(QRect(415, 270, 113, 32));
+        pushButton_2->setStyleSheet(QString::fromUtf8("background-color:rgb(203, 211, 255);\n"
+"color:black;"));
         layoutWidget = new QWidget(Monitoring_edit);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
         layoutWidget->setGeometry(QRect(270, 10, 258, 242));
@@ -120,139 +109,66 @@ public:
 
         verticalLayout_3->addWidget(tableView);
 
-        layoutWidget1 = new QWidget(Monitoring_edit);
-        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(30, 60, 201, 194));
-        verticalLayout_4 = new QVBoxLayout(layoutWidget1);
-        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
-        verticalLayout_4->setContentsMargins(0, 0, 0, 0);
-        verticalLayout_2 = new QVBoxLayout();
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        label = new QLabel(layoutWidget1);
-        label->setObjectName(QString::fromUtf8("label"));
-
-        horizontalLayout->addWidget(label);
-
-        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout->addItem(horizontalSpacer_2);
-
-        Year_edit = new QLineEdit(layoutWidget1);
-        Year_edit->setObjectName(QString::fromUtf8("Year_edit"));
-
-        horizontalLayout->addWidget(Year_edit);
-
-
-        verticalLayout->addLayout(horizontalLayout);
-
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        label_2 = new QLabel(layoutWidget1);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-
-        horizontalLayout_2->addWidget(label_2);
-
-        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_2->addItem(horizontalSpacer_3);
-
-        Month_edit = new QLineEdit(layoutWidget1);
-        Month_edit->setObjectName(QString::fromUtf8("Month_edit"));
-
-        horizontalLayout_2->addWidget(Month_edit);
-
-
-        verticalLayout->addLayout(horizontalLayout_2);
-
-        horizontalLayout_3 = new QHBoxLayout();
-        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
-        label_3 = new QLabel(layoutWidget1);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-
-        horizontalLayout_3->addWidget(label_3);
-
-        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_3->addItem(horizontalSpacer_4);
-
-        Day_edit = new QLineEdit(layoutWidget1);
-        Day_edit->setObjectName(QString::fromUtf8("Day_edit"));
-
-        horizontalLayout_3->addWidget(Day_edit);
-
-
-        verticalLayout->addLayout(horizontalLayout_3);
-
-        horizontalLayout_4 = new QHBoxLayout();
-        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
-        label_4 = new QLabel(layoutWidget1);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-
-        horizontalLayout_4->addWidget(label_4);
-
-        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_4->addItem(horizontalSpacer_5);
-
-        Cate_edit = new QLineEdit(layoutWidget1);
-        Cate_edit->setObjectName(QString::fromUtf8("Cate_edit"));
-
-        horizontalLayout_4->addWidget(Cate_edit);
-
-
-        verticalLayout->addLayout(horizontalLayout_4);
-
-
-        verticalLayout_2->addLayout(verticalLayout);
-
-        horizontalLayout_5 = new QHBoxLayout();
-        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
-        label_5 = new QLabel(layoutWidget1);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-
-        horizontalLayout_5->addWidget(label_5);
-
-        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_5->addItem(horizontalSpacer_6);
-
-        Amount_edit = new QLineEdit(layoutWidget1);
-        Amount_edit->setObjectName(QString::fromUtf8("Amount_edit"));
-
-        horizontalLayout_5->addWidget(Amount_edit);
-
-
-        verticalLayout_2->addLayout(horizontalLayout_5);
-
-
-        verticalLayout_4->addLayout(verticalLayout_2);
-
-        horizontalLayout_7 = new QHBoxLayout();
-        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
-        label_6 = new QLabel(layoutWidget1);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-
-        horizontalLayout_7->addWidget(label_6);
-
-        horizontalSpacer_7 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_7->addItem(horizontalSpacer_7);
-
-        Desc_edit = new QLineEdit(layoutWidget1);
-        Desc_edit->setObjectName(QString::fromUtf8("Desc_edit"));
-
-        horizontalLayout_7->addWidget(Desc_edit);
-
-
-        verticalLayout_4->addLayout(horizontalLayout_7);
-
         label_7 = new QLabel(Monitoring_edit);
         label_7->setObjectName(QString::fromUtf8("label_7"));
         label_7->setGeometry(QRect(270, 250, 271, 16));
+        Year_edit = new QLineEdit(Monitoring_edit);
+        Year_edit->setObjectName(QString::fromUtf8("Year_edit"));
+        Year_edit->setGeometry(QRect(90, 40, 160, 22));
+        Month_edit = new QLineEdit(Monitoring_edit);
+        Month_edit->setObjectName(QString::fromUtf8("Month_edit"));
+        Month_edit->setGeometry(QRect(90, 80, 160, 22));
+        label = new QLabel(Monitoring_edit);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(20, 40, 31, 21));
+        label_2 = new QLabel(Monitoring_edit);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(20, 80, 51, 22));
+        label_3 = new QLabel(Monitoring_edit);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(20, 120, 22, 22));
+        Day_edit = new QLineEdit(Monitoring_edit);
+        Day_edit->setObjectName(QString::fromUtf8("Day_edit"));
+        Day_edit->setGeometry(QRect(90, 120, 160, 22));
+        label_4 = new QLabel(Monitoring_edit);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setGeometry(QRect(20, 155, 51, 22));
+        Cate_edit = new QLineEdit(Monitoring_edit);
+        Cate_edit->setObjectName(QString::fromUtf8("Cate_edit"));
+        Cate_edit->setGeometry(QRect(90, 155, 160, 22));
+        label_5 = new QLabel(Monitoring_edit);
+        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setGeometry(QRect(20, 190, 43, 22));
+        Amount_edit = new QLineEdit(Monitoring_edit);
+        Amount_edit->setObjectName(QString::fromUtf8("Amount_edit"));
+        Amount_edit->setGeometry(QRect(90, 190, 160, 22));
+        label_6 = new QLabel(Monitoring_edit);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setGeometry(QRect(20, 230, 64, 22));
+        Desc_edit = new QLineEdit(Monitoring_edit);
+        Desc_edit->setObjectName(QString::fromUtf8("Desc_edit"));
+        Desc_edit->setGeometry(QRect(90, 230, 160, 22));
+        background = new QLabel(Monitoring_edit);
+        background->setObjectName(QString::fromUtf8("background"));
+        background->setGeometry(QRect(-10, 0, 561, 321));
+        background->setStyleSheet(QString::fromUtf8("background-color:rgb(243, 243, 255)"));
+        background->raise();
+        pushButton->raise();
+        pushButton_2->raise();
+        layoutWidget->raise();
+        label_7->raise();
+        Year_edit->raise();
+        Month_edit->raise();
+        label->raise();
+        label_2->raise();
+        label_3->raise();
+        Day_edit->raise();
+        label_4->raise();
+        Cate_edit->raise();
+        label_5->raise();
+        Amount_edit->raise();
+        label_6->raise();
+        Desc_edit->raise();
 
         retranslateUi(Monitoring_edit);
 
@@ -278,13 +194,14 @@ public:
         Month_combo->setItemText(11, QCoreApplication::translate("Monitoring_edit", "Dec", nullptr));
 
         pushButton_3->setText(QCoreApplication::translate("Monitoring_edit", "Show", nullptr));
+        label_7->setText(QCoreApplication::translate("Monitoring_edit", "*Double click Key section you want to edit", nullptr));
         label->setText(QCoreApplication::translate("Monitoring_edit", "Year", nullptr));
         label_2->setText(QCoreApplication::translate("Monitoring_edit", "Month", nullptr));
         label_3->setText(QCoreApplication::translate("Monitoring_edit", "Day", nullptr));
         label_4->setText(QCoreApplication::translate("Monitoring_edit", "Category", nullptr));
         label_5->setText(QCoreApplication::translate("Monitoring_edit", "Amount", nullptr));
         label_6->setText(QCoreApplication::translate("Monitoring_edit", "Description", nullptr));
-        label_7->setText(QCoreApplication::translate("Monitoring_edit", "*Double click Key section you want to edit", nullptr));
+        background->setText(QCoreApplication::translate("Monitoring_edit", "l", nullptr));
     } // retranslateUi
 
 };

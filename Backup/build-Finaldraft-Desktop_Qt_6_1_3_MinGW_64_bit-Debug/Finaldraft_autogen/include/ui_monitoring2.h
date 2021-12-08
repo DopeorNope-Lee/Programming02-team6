@@ -129,7 +129,7 @@ public:
         background_in->setFrameShape(QFrame::WinPanel);
         label_2 = new QLabel(Monitoring2);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(10, 50, 137, 24));
+        label_2->setGeometry(QRect(15, 50, 51, 24));
         QFont font3;
         font3.setFamilies({QString::fromUtf8("\352\265\264\353\246\274")});
         font3.setPointSize(10);
@@ -148,8 +148,6 @@ public:
         label->raise();
         tableWidget_2->raise();
         displaywidget->raise();
-        label_2->raise();
-        spinBox->raise();
         spinBox->raise();
         label_2->raise();
 
@@ -196,7 +194,7 @@ public:
         pushButton->setText(QCoreApplication::translate("Monitoring2", "Cancel", nullptr));
         background->setText(QString());
         background_in->setText(QString());
-        label_2->setText(QCoreApplication::translate("Monitoring2", "  <Year>", nullptr));
+        label_2->setText(QCoreApplication::translate("Monitoring2", "  Year", nullptr));
     } // retranslateUi
 
 };

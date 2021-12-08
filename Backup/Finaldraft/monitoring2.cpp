@@ -1,12 +1,5 @@
 #include "monitoring2.h"
-#include "monitoring_edit.h"
 #include "ui_monitoring2.h"
-#include <QtSql>
-#include <QtDebug>
-#include <QFileInfo>
-#include <QMessageBox>
-#include <QDebug>
-#include <QString>
 
 Monitoring2::Monitoring2(QWidget *parent) :
     QDialog(parent),

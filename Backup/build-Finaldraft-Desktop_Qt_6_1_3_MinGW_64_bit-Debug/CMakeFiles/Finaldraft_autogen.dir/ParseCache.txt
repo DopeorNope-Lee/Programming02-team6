@@ -4,8 +4,11 @@ C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.h
  mdp:C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.h
  mdp:C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/moc_predefs.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QDeadlineTimer
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QFileInfo
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QObject
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QScopedPointer
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QString
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QStringList
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QtCore
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QtCoreDepends
@@ -254,16 +257,21 @@ C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtSql/qtsql-config.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtSql/qtsqlglobal.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtSql/qtsqlversion.h
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QDialog
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMessageBox
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QTableWidget
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractitemdelegate.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractitemview.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractscrollarea.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractslider.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractspinbox.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qcombobox.h
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qdialog.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qframe.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qlistview.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmessagebox.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qrubberband.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qslider.h
@@ -271,6 +279,8 @@ C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qstyleditemdelegate.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qstyleoption.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtabbar.h
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtableview.h
+ mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtablewidget.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtabwidget.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
@@ -515,6 +525,10 @@ C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+ mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring1.h
+ mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring2.h
+ mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring3.h
+ mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h
 C:/Users/Lee/Documents/C++/Finaldraft/monitoring1.h
  mmc:Q_OBJECT
  mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring1.h
@@ -1036,9 +1050,7 @@ C:/Users/Lee/Documents/C++/Finaldraft/monitoring1.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
-C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.cpp
- uic:./ui_mainwindow.h
-C:/Users/Lee/Documents/C++/Finaldraft/main.cpp
+ mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h
 C:/Users/Lee/Documents/C++/Finaldraft/monitoring2.h
  mmc:Q_OBJECT
  mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring2.h
@@ -1560,9 +1572,12 @@ C:/Users/Lee/Documents/C++/Finaldraft/monitoring2.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
-C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h
+C:/Users/Lee/Documents/C++/Finaldraft/main.cpp
+C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.cpp
+ uic:./ui_mainwindow.h
+C:/Users/Lee/Documents/C++/Finaldraft/monitoring3.h
  mmc:Q_OBJECT
- mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h
+ mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring3.h
  mdp:C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/moc_predefs.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QDeadlineTimer
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug
@@ -2081,9 +2096,9 @@ C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
-C:/Users/Lee/Documents/C++/Finaldraft/monitoring3.h
+C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h
  mmc:Q_OBJECT
- mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring3.h
+ mdp:C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h
  mdp:C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/moc_predefs.h
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QDeadlineTimer
  mdp:C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug

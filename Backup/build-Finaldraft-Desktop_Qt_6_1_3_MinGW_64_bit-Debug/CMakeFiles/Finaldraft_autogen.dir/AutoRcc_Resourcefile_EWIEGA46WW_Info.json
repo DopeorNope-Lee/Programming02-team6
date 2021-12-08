@@ -8,17 +8,16 @@
 	"INPUTS" : 
 	[
 		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/expense3.png",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/MAIN ICON2.png",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/plan.jpg.png",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/expense.png",
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/button2.png",
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/mainwindow1 (1).png",
 		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/expense1.png",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/planning.png",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/mint.png",
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/button.png",
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/button3.png",
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/image-e.png",
 		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/expense2.png",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/monitoring.png",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/background.jpg",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/mainwindow.jpg",
-		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/MAIN ICON.png"
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/background.png",
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/image-p.png",
+		"C:/Users/Lee/Documents/C++/Finaldraft/resourcefile/image-m.png"
 	],
 	"LOCK_FILE" : "C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/CMakeFiles/Finaldraft_autogen.dir/AutoRcc_Resourcefile_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

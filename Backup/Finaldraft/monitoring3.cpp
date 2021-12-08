@@ -1,12 +1,6 @@
 #include "monitoring3.h"
 #include "ui_monitoring3.h"
-#include "monitoring_edit.h"
-#include <QtSql>
-#include <QtDebug>
-#include <QFileInfo>
-#include <QMessageBox>
-#include <QDebug>
-#include <QString>
+
 
 Monitoring3::Monitoring3(QWidget *parent) :
     QDialog(parent),

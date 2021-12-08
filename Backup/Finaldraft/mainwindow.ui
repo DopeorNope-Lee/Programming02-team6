@@ -39,127 +39,121 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="mainpage">
      <widget class="QLabel" name="main_label">
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-10</x>
         <y>0</y>
-        <width>1061</width>
-        <height>571</height>
+        <width>1071</width>
+        <height>601</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image:url(:/resourcefile/mainwindow.jpg);
+       <string notr="true">background-image:url(:/resourcefile/mainwindow1 (1).png)
 </string>
       </property>
       <property name="text">
        <string/>
       </property>
      </widget>
-     <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <widget class="QPushButton" name="main_planning_btn">
       <property name="geometry">
        <rect>
-        <x>220</x>
-        <y>440</y>
-        <width>661</width>
-        <height>111</height>
+        <x>50</x>
+        <y>480</y>
+        <width>201</width>
+        <height>51</height>
        </rect>
       </property>
-      <layout class="QHBoxLayout" name="main_horizontalLayout">
-       <item>
-        <widget class="QPushButton" name="main_planning_btn_2">
-         <property name="font">
-          <font>
-           <family>Agency FB</family>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true"/>
-         </property>
-         <property name="text">
-          <string>Home</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="main_planning_btn">
-         <property name="font">
-          <font>
-           <family>Agency FB</family>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true"/>
-         </property>
-         <property name="text">
-          <string>planning</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="main_expense_btn">
-         <property name="font">
-          <font>
-           <family>Agency FB</family>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true"/>
-         </property>
-         <property name="text">
-          <string>expense</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="main_monit_btn">
-         <property name="font">
-          <font>
-           <family>Agency FB</family>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true"/>
-         </property>
-         <property name="text">
-          <string>monitoring</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="main_exit_btn">
-         <property name="font">
-          <font>
-           <family>Agency FB</family>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true"/>
-         </property>
-         <property name="text">
-          <string>EXIT</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image:url(:/resourcefile/button.png)</string>
+      </property>
+      <property name="text">
+       <string>Planning</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="main_expense_btn">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>480</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image:url(:/resourcefile/button.png)</string>
+      </property>
+      <property name="text">
+       <string>Expense</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="main_monit_btn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>480</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image:url(:/resourcefile/button.png)</string>
+      </property>
+      <property name="text">
+       <string>Monitoring</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="main_exit_btn">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>480</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image:url(:/resourcefile/button.png)</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="planpage">
@@ -169,11 +163,11 @@
         <x>0</x>
         <y>0</y>
         <width>1061</width>
-        <height>581</height>
+        <height>571</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:rgb(176, 193, 255)</string>
+       <string notr="true">background-image:url(:/resourcefile/image-p.png)</string>
       </property>
       <property name="text">
        <string/>
@@ -182,8 +176,8 @@
      <widget class="QWidget" name="horizontalLayoutWidget_3">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>440</y>
+        <x>200</x>
+        <y>470</y>
         <width>661</width>
         <height>111</height>
        </rect>
@@ -200,7 +194,7 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Home</string>
@@ -218,7 +212,7 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button3.png)</string>
          </property>
          <property name="text">
           <string>Planning</string>
@@ -236,7 +230,7 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Expense</string>
@@ -254,7 +248,7 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Monitoring</string>
@@ -272,186 +266,12 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>EXIT</string>
          </property>
         </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="layoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>550</x>
-        <y>140</y>
-        <width>451</width>
-        <height>231</height>
-       </rect>
-      </property>
-      <layout class="QHBoxLayout" name="plan_horizontalLayout_4">
-       <item>
-        <layout class="QVBoxLayout" name="plan_verticalLayout">
-         <item>
-          <widget class="QLabel" name="plan_category_2">
-           <property name="font">
-            <font>
-             <family>Agency FB</family>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Category</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="plan_money_2">
-           <property name="font">
-            <font>
-             <family>Agency FB</family>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Money</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="plan_description_2">
-           <property name="font">
-            <font>
-             <family>Agency FB</family>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Description</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <layout class="QVBoxLayout" name="plan_verticalLayout_3">
-         <item>
-          <layout class="QHBoxLayout" name="plan_horizontalLayout_10">
-           <item>
-            <widget class="QComboBox" name="plan_CategoryBox">
-             <property name="maximumSize">
-              <size>
-               <width>367</width>
-               <height>23</height>
-              </size>
-             </property>
-             <item>
-              <property name="text">
-               <string>Food</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>Education</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>Transportation</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>Clothes</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>Entertainment</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>Communication fee</string>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="plan_plus_btn">
-             <property name="minimumSize">
-              <size>
-               <width>80</width>
-               <height>24</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>80</width>
-               <height>24</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>+</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="plan_horizontalLayout_11">
-           <item>
-            <widget class="QLineEdit" name="plan_line_money">
-             <property name="maximumSize">
-              <size>
-               <width>355</width>
-               <height>23</height>
-              </size>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="plan_label_3">
-             <property name="font">
-              <font>
-               <family>Agency FB</family>
-               <weight>75</weight>
-               <bold>true</bold>
-              </font>
-             </property>
-             <property name="text">
-              <string>$</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="plan_horizontalLayout_12">
-           <item>
-            <widget class="QLineEdit" name="plan_line_descript">
-             <property name="maximumSize">
-              <size>
-               <width>354</width>
-               <height>23</height>
-              </size>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="plan_lable">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-        </layout>
        </item>
       </layout>
      </widget>
@@ -461,12 +281,13 @@
         <x>540</x>
         <y>110</y>
         <width>54</width>
-        <height>12</height>
+        <height>16</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Agency FB</family>
+        <pointsize>11</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -500,116 +321,21 @@
       <property name="geometry">
        <rect>
         <x>980</x>
-        <y>90</y>
+        <y>110</y>
         <width>51</width>
-        <height>351</height>
+        <height>331</height>
        </rect>
       </property>
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
      </widget>
-     <widget class="QWidget" name="layoutWidget_2">
-      <property name="geometry">
-       <rect>
-        <x>150</x>
-        <y>80</y>
-        <width>171</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <layout class="QHBoxLayout" name="plan_horizontalLayout_5">
-       <item>
-        <widget class="QLabel" name="plan_month">
-         <property name="font">
-          <font>
-           <family>굴림</family>
-          </font>
-         </property>
-         <property name="text">
-          <string>Month</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QComboBox" name="plan_combo_month">
-         <property name="font">
-          <font>
-           <family>굴림</family>
-          </font>
-         </property>
-         <item>
-          <property name="text">
-           <string>Jan</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Feb</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Mar</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Apr</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>May</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Jun</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Jul</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Aug</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Sep</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Oct</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Nov</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Dec</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-      </layout>
-      <zorder>plan_combo_month</zorder>
-      <zorder>plan_month</zorder>
-     </widget>
      <widget class="Line" name="plan_line_2">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>90</y>
-        <width>481</width>
+        <x>570</x>
+        <y>110</y>
+        <width>451</width>
         <height>20</height>
        </rect>
       </property>
@@ -620,9 +346,9 @@
      <widget class="Line" name="plan_line_3">
       <property name="geometry">
        <rect>
-        <x>520</x>
+        <x>540</x>
         <y>420</y>
-        <width>491</width>
+        <width>481</width>
         <height>20</height>
        </rect>
       </property>
@@ -630,71 +356,13 @@
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
-     <widget class="QWidget" name="layoutWidget_4">
-      <property name="geometry">
-       <rect>
-        <x>700</x>
-        <y>390</y>
-        <width>256</width>
-        <height>26</height>
-       </rect>
-      </property>
-      <layout class="QHBoxLayout" name="plan_horizontalLayout_6">
-       <item>
-        <widget class="QPushButton" name="plan_addButton">
-         <property name="maximumSize">
-          <size>
-           <width>124</width>
-           <height>24</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>굴림</family>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color:rgb(203, 211, 255);
-color:black;
-</string>
-         </property>
-         <property name="text">
-          <string>Add</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="plan_delete">
-         <property name="maximumSize">
-          <size>
-           <width>123</width>
-           <height>24</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>굴림</family>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color:rgb(203, 211, 255);
-color:black;
-</string>
-         </property>
-         <property name="text">
-          <string>Delete</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
      <widget class="QTableWidget" name="planningWidget">
       <property name="geometry">
        <rect>
         <x>30</x>
         <y>120</y>
         <width>501</width>
-        <height>301</height>
+        <height>311</height>
        </rect>
       </property>
       <property name="font">
@@ -735,6 +403,7 @@ color:black;
       <property name="font">
        <font>
         <family>굴림</family>
+        <pointsize>10</pointsize>
        </font>
       </property>
       <property name="text">
@@ -745,13 +414,16 @@ color:black;
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>60</y>
+        <y>70</y>
         <width>1021</width>
         <height>411</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(243, 243, 255)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::WinPanel</enum>
       </property>
       <property name="text">
        <string/>
@@ -762,14 +434,14 @@ color:black;
        <rect>
         <x>70</x>
         <y>10</y>
-        <width>58</width>
-        <height>49</height>
+        <width>101</width>
+        <height>39</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Agency FB</family>
-        <pointsize>12</pointsize>
+        <pointsize>20</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -781,39 +453,370 @@ color:black;
        <string>Planning  </string>
       </property>
      </widget>
-     <widget class="QLabel" name="plan_label_7">
+     <widget class="QPushButton" name="plan_addButton">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>10</y>
-        <width>41</width>
-        <height>49</height>
+        <x>793</x>
+        <y>390</y>
+        <width>91</width>
+        <height>21</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>굴림</family>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-image:url(:/resourcefile/planning.png)
-
+       <string notr="true">background-color:rgb(203, 211, 255);
+color:black;
 </string>
       </property>
       <property name="text">
-       <string/>
+       <string>Save</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="plan_delete">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>390</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>굴림</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(203, 211, 255);
+color:black;
+</string>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="plan_combo_month">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>80</y>
+        <width>81</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>굴림</family>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Jan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Feb</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Apr</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>May</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jun</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jul</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Aug</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sep</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Oct</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Nov</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dec</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="plan_month">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>80</y>
+        <width>61</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>굴림</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Month</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="plan_CategoryBox">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>170</y>
+        <width>261</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>286</width>
+        <height>22</height>
+       </size>
+      </property>
+      <item>
+       <property name="text">
+        <string>Food</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Education</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Transportation</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Clothes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Communication fee</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="plan_plus_btn">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>170</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>88</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="plan_category_2">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>145</y>
+        <width>47</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>72</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Category</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="plan_money_2">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>225</y>
+        <width>47</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Money</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="plan_description_2">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>300</y>
+        <width>47</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>72</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="plan_line_money">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>250</y>
+        <width>331</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>368</width>
+        <height>22</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="plan_label_3">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>250</y>
+        <width>16</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>$</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="plan_line_descript">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>325</y>
+        <width>351</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>368</width>
+        <height>22</height>
+       </size>
       </property>
      </widget>
      <zorder>plan_label</zorder>
      <zorder>plan_label_6</zorder>
-     <zorder>layoutWidget</zorder>
      <zorder>horizontalLayoutWidget_3</zorder>
      <zorder>plan_label_5</zorder>
      <zorder>plan_line</zorder>
-     <zorder>layoutWidget_2</zorder>
      <zorder>plan_line_2</zorder>
      <zorder>plan_line_3</zorder>
-     <zorder>layoutWidget_4</zorder>
      <zorder>planningWidget</zorder>
      <zorder>plan_spinBox</zorder>
      <zorder>plan_year</zorder>
      <zorder>planning_name</zorder>
-     <zorder>plan_label_7</zorder>
+     <zorder>plan_addButton</zorder>
+     <zorder>plan_delete</zorder>
+     <zorder>plan_combo_month</zorder>
+     <zorder>plan_month</zorder>
+     <zorder>plan_CategoryBox</zorder>
+     <zorder>plan_plus_btn</zorder>
+     <zorder>plan_category_2</zorder>
+     <zorder>plan_money_2</zorder>
+     <zorder>plan_description_2</zorder>
+     <zorder>plan_line_money</zorder>
+     <zorder>plan_label_3</zorder>
+     <zorder>plan_line_descript</zorder>
     </widget>
     <widget class="QWidget" name="expensepage">
      <widget class="QLabel" name="expense_lable">
@@ -826,7 +829,7 @@ color:black;
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:rgb(176, 193, 255)</string>
+       <string notr="true">background-image:url(:/resourcefile/image-e.png)</string>
       </property>
       <property name="text">
        <string/>
@@ -836,13 +839,16 @@ color:black;
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>60</y>
+        <y>70</y>
         <width>1021</width>
         <height>411</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(243, 243, 255)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::WinPanel</enum>
       </property>
       <property name="text">
        <string/>
@@ -852,9 +858,9 @@ color:black;
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>70</y>
+        <y>80</y>
         <width>181</width>
-        <height>21</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="locale">
@@ -888,10 +894,15 @@ color:black;
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>110</y>
-        <width>571</width>
-        <height>301</height>
+        <y>120</y>
+        <width>501</width>
+        <height>311</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>굴림</family>
+       </font>
       </property>
       <column>
        <property name="text">
@@ -919,180 +930,12 @@ color:black;
        </property>
       </column>
      </widget>
-     <widget class="QWidget" name="layoutWidget_3">
-      <property name="geometry">
-       <rect>
-        <x>630</x>
-        <y>140</y>
-        <width>401</width>
-        <height>211</height>
-       </rect>
-      </property>
-      <layout class="QHBoxLayout" name="expense_horizontalLayout_3">
-       <item>
-        <layout class="QVBoxLayout" name="expense_verticalLayout">
-         <item>
-          <widget class="QLabel" name="expense_category">
-           <property name="font">
-            <font>
-             <family>Agency FB</family>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Category</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="money_4">
-           <property name="font">
-            <font>
-             <family>Agency FB</family>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Money</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="expense_description">
-           <property name="font">
-            <font>
-             <family>Agency FB</family>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Description</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <layout class="QVBoxLayout" name="expense_verticalLayout_2">
-         <item>
-          <layout class="QHBoxLayout" name="expense_horizontalLayout_4">
-           <item>
-            <layout class="QVBoxLayout" name="expense_verticalLayout_3">
-             <item>
-              <layout class="QHBoxLayout" name="expense_horizontalLayout_5">
-               <item>
-                <widget class="QComboBox" name="expense_CategoryBox">
-                 <property name="maximumSize">
-                  <size>
-                   <width>258</width>
-                   <height>23</height>
-                  </size>
-                 </property>
-                 <item>
-                  <property name="text">
-                   <string>Food</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>Education</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>Transportation</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>Clothes</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>Entertainment</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>Communication fee</string>
-                  </property>
-                 </item>
-                </widget>
-               </item>
-               <item>
-                <widget class="QPushButton" name="expense_plus_btn">
-                 <property name="minimumSize">
-                  <size>
-                   <width>80</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>80</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>+</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="expense_horizontalLayout_6">
-           <item>
-            <widget class="QLineEdit" name="expense_line_money"/>
-           </item>
-           <item>
-            <widget class="QLabel" name="expense_label">
-             <property name="font">
-              <font>
-               <family>Agency FB</family>
-               <weight>75</weight>
-               <bold>true</bold>
-              </font>
-             </property>
-             <property name="text">
-              <string>$</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="expense_horizontalLayout_7">
-           <item>
-            <widget class="QLineEdit" name="expense_line_descript"/>
-           </item>
-           <item>
-            <widget class="QLabel" name="expense_label_2">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-        </layout>
-       </item>
-      </layout>
-     </widget>
      <widget class="Line" name="expense_line">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>540</x>
         <y>420</y>
-        <width>451</width>
+        <width>481</width>
         <height>20</height>
        </rect>
       </property>
@@ -1103,9 +946,9 @@ color:black;
      <widget class="Line" name="expense_line_2">
       <property name="geometry">
        <rect>
-        <x>650</x>
-        <y>100</y>
-        <width>391</width>
+        <x>570</x>
+        <y>110</y>
+        <width>451</width>
         <height>20</height>
        </rect>
       </property>
@@ -1116,15 +959,16 @@ color:black;
      <widget class="QLabel" name="expense_lable_2">
       <property name="geometry">
        <rect>
-        <x>620</x>
-        <y>100</y>
+        <x>540</x>
+        <y>110</y>
         <width>54</width>
-        <height>12</height>
+        <height>16</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Agency FB</family>
+        <pointsize>11</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1136,11 +980,16 @@ color:black;
      <widget class="QPushButton" name="expense_Save_btn">
       <property name="geometry">
        <rect>
-        <x>850</x>
-        <y>360</y>
-        <width>71</width>
-        <height>24</height>
+        <x>793</x>
+        <y>390</y>
+        <width>91</width>
+        <height>21</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>굴림</family>
+       </font>
       </property>
       <property name="autoFillBackground">
        <bool>false</bool>
@@ -1157,11 +1006,16 @@ color:rgb(0,0,0);
      <widget class="QPushButton" name="expense_delete_btn">
       <property name="geometry">
        <rect>
-        <x>940</x>
-        <y>360</y>
-        <width>71</width>
-        <height>24</height>
+        <x>900</x>
+        <y>390</y>
+        <width>91</width>
+        <height>21</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>굴림</family>
+       </font>
       </property>
       <property name="autoFillBackground">
        <bool>false</bool>
@@ -1177,10 +1031,10 @@ color:rgb(0,0,0);</string>
      <widget class="Line" name="expense_line_3">
       <property name="geometry">
        <rect>
-        <x>1010</x>
-        <y>90</y>
+        <x>980</x>
+        <y>110</y>
         <width>51</width>
-        <height>351</height>
+        <height>331</height>
        </rect>
       </property>
       <property name="orientation">
@@ -1190,8 +1044,8 @@ color:rgb(0,0,0);</string>
      <widget class="QWidget" name="horizontalLayoutWidget_4">
       <property name="geometry">
        <rect>
-        <x>230</x>
-        <y>450</y>
+        <x>200</x>
+        <y>470</y>
         <width>661</width>
         <height>111</height>
        </rect>
@@ -1208,7 +1062,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Home</string>
@@ -1226,7 +1080,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Planning</string>
@@ -1244,7 +1098,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button3.png)</string>
          </property>
          <property name="text">
           <string>Expense</string>
@@ -1262,7 +1116,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Monitoring</string>
@@ -1280,7 +1134,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>EXIT</string>
@@ -1293,15 +1147,15 @@ color:rgb(0,0,0);</string>
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>20</y>
-        <width>80</width>
+        <y>10</y>
+        <width>101</width>
         <height>39</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Agency FB</family>
-        <pointsize>14</pointsize>
+        <pointsize>20</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1310,28 +1164,211 @@ color:rgb(0,0,0);</string>
        <string>Exspense  </string>
       </property>
      </widget>
-     <widget class="QLabel" name="expense_lable_4">
+     <widget class="QComboBox" name="expense_CategoryBox">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>51</width>
-        <height>39</height>
+        <x>620</x>
+        <y>170</y>
+        <width>261</width>
+        <height>22</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-image:url(:/resourcefile/expense.png);
-</string>
+      <property name="maximumSize">
+       <size>
+        <width>286</width>
+        <height>22</height>
+       </size>
+      </property>
+      <item>
+       <property name="text">
+        <string>Food</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Education</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Transportation</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Clothes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Communication fee</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="expense_plus_btn">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>170</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>88</width>
+        <height>24</height>
+       </size>
       </property>
       <property name="text">
-       <string/>
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="expense_category">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>145</y>
+        <width>47</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>72</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Category</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="money_4">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>225</y>
+        <width>47</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Money</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="expense_description">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>300</y>
+        <width>47</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>72</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="expense_line_money">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>250</y>
+        <width>331</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>368</width>
+        <height>22</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="expense_label">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>250</y>
+        <width>16</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>$</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="expense_line_descript">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>325</y>
+        <width>351</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>368</width>
+        <height>22</height>
+       </size>
       </property>
      </widget>
      <zorder>expense_lable</zorder>
      <zorder>expense_lable_3</zorder>
      <zorder>expense_dateEdit</zorder>
      <zorder>ExpenseWidget</zorder>
-     <zorder>layoutWidget_3</zorder>
      <zorder>expense_line</zorder>
      <zorder>expense_line_2</zorder>
      <zorder>expense_lable_2</zorder>
@@ -1340,16 +1377,23 @@ color:rgb(0,0,0);</string>
      <zorder>expense_Save_btn</zorder>
      <zorder>expense_delete_btn</zorder>
      <zorder>expense_name</zorder>
-     <zorder>expense_lable_4</zorder>
+     <zorder>expense_CategoryBox</zorder>
+     <zorder>expense_plus_btn</zorder>
+     <zorder>expense_category</zorder>
+     <zorder>money_4</zorder>
+     <zorder>expense_description</zorder>
+     <zorder>expense_line_money</zorder>
+     <zorder>expense_label</zorder>
+     <zorder>expense_line_descript</zorder>
     </widget>
     <widget class="QWidget" name="mon_page">
      <widget class="QPushButton" name="by_period_btn">
       <property name="geometry">
        <rect>
-        <x>490</x>
-        <y>430</y>
+        <x>480</x>
+        <y>360</y>
         <width>101</width>
-        <height>20</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
@@ -1359,8 +1403,8 @@ color:rgb(0,0,0);</string>
      <widget class="QLabel" name="monitoring_icon2">
       <property name="geometry">
        <rect>
-        <x>490</x>
-        <y>290</y>
+        <x>480</x>
+        <y>230</y>
         <width>91</width>
         <height>91</height>
        </rect>
@@ -1376,9 +1420,9 @@ color:rgb(0,0,0);</string>
       <property name="geometry">
        <rect>
         <x>230</x>
-        <y>430</y>
+        <y>360</y>
         <width>111</width>
-        <height>20</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
@@ -1388,8 +1432,8 @@ color:rgb(0,0,0);</string>
      <widget class="QLabel" name="monitoring_icon1">
       <property name="geometry">
        <rect>
-        <x>250</x>
-        <y>280</y>
+        <x>240</x>
+        <y>220</y>
         <width>91</width>
         <height>91</height>
        </rect>
@@ -1404,9 +1448,9 @@ color:rgb(0,0,0);</string>
      <widget class="QLabel" name="background_in_2">
       <property name="geometry">
        <rect>
-        <x>220</x>
-        <y>190</y>
-        <width>671</width>
+        <x>180</x>
+        <y>160</y>
+        <width>701</width>
         <height>281</height>
        </rect>
       </property>
@@ -1423,10 +1467,10 @@ color:rgb(0,0,0);</string>
      <widget class="QLabel" name="monitoring_icon3">
       <property name="geometry">
        <rect>
-        <x>740</x>
-        <y>280</y>
+        <x>720</x>
+        <y>220</y>
         <width>91</width>
-        <height>91</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -1439,14 +1483,14 @@ color:rgb(0,0,0);</string>
      <widget class="QLabel" name="background_2">
       <property name="geometry">
        <rect>
-        <x>-370</x>
+        <x>-360</x>
         <y>-20</y>
         <width>1431</width>
         <height>601</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:rgb(176, 193, 255)</string>
+       <string notr="true">background-image:url(:/resourcefile/image-m.png)</string>
       </property>
       <property name="text">
        <string/>
@@ -1455,10 +1499,10 @@ color:rgb(0,0,0);</string>
      <widget class="QPushButton" name="By_category_btn">
       <property name="geometry">
        <rect>
-        <x>740</x>
-        <y>430</y>
+        <x>720</x>
+        <y>360</y>
         <width>101</width>
-        <height>20</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
@@ -1468,9 +1512,9 @@ color:rgb(0,0,0);</string>
      <widget class="QWidget" name="horizontalLayoutWidget_5">
       <property name="geometry">
        <rect>
-        <x>220</x>
-        <y>460</y>
-        <width>771</width>
+        <x>200</x>
+        <y>470</y>
+        <width>661</width>
         <height>111</height>
        </rect>
       </property>
@@ -1486,7 +1530,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Home</string>
@@ -1504,7 +1548,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Planning</string>
@@ -1522,7 +1566,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>Expense</string>
@@ -1540,7 +1584,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button3.png)</string>
          </property>
          <property name="text">
           <string>Monitoring</string>
@@ -1558,7 +1602,7 @@ color:rgb(0,0,0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">background-image:url(:/resourcefile/button2.png)</string>
          </property>
          <property name="text">
           <string>EXIT</string>
@@ -1576,36 +1620,28 @@ color:rgb(0,0,0);</string>
         <height>51</height>
        </rect>
       </property>
-      <layout class="QHBoxLayout" name="monit_horizontalLayout_2">
-       <item>
-        <widget class="QLabel" name="monitoring_icon">
-         <property name="styleSheet">
-          <string notr="true">background-image:url(:/resourcefile/monitoring.png)</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="mornitoring">
-         <property name="font">
-          <font>
-           <family>Agency FB</family>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="text">
-          <string>Monitoring</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <layout class="QHBoxLayout" name="monit_horizontalLayout_2"/>
+     </widget>
+     <widget class="QLabel" name="momitoring_name">
+      <property name="geometry">
+       <rect>
+        <x>223</x>
+        <y>80</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Monitoring</string>
+      </property>
      </widget>
      <zorder>layoutWidget</zorder>
      <zorder>background_2</zorder>
@@ -1617,106 +1653,109 @@ color:rgb(0,0,0);</string>
      <zorder>monitoring_icon3</zorder>
      <zorder>By_category_btn</zorder>
      <zorder>horizontalLayoutWidget_5</zorder>
+     <zorder>momitoring_name</zorder>
     </widget>
     <widget class="QWidget" name="page">
+     <widget class="QListWidget" name="Cate_list">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>441</width>
+        <height>401</height>
+       </rect>
+      </property>
+     </widget>
      <widget class="QPushButton" name="Category_btn">
       <property name="geometry">
        <rect>
         <x>580</x>
-        <y>430</y>
-        <width>101</width>
-        <height>51</height>
+        <y>390</y>
+        <width>86</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(203, 211, 255);
+color:black;
+</string>
       </property>
       <property name="text">
        <string>Add</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="Category_btn2">
-      <property name="geometry">
-       <rect>
-        <x>890</x>
-        <y>430</y>
-        <width>101</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Go to Back</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="Category_btn_2">
       <property name="geometry">
        <rect>
-        <x>740</x>
-        <y>430</y>
-        <width>101</width>
-        <height>51</height>
+        <x>700</x>
+        <y>390</y>
+        <width>86</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(203, 211, 255);
+color:black;</string>
       </property>
       <property name="text">
        <string>Delete</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="Category_btn2">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>390</y>
+        <width>86</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(203, 211, 255);
+color:black;</string>
+      </property>
+      <property name="text">
+       <string>Go to back</string>
+      </property>
+     </widget>
      <widget class="QLineEdit" name="cateline_edit">
       <property name="geometry">
        <rect>
-        <x>620</x>
-        <y>350</y>
-        <width>361</width>
+        <x>580</x>
+        <y>295</y>
+        <width>391</width>
         <height>41</height>
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="Category_lable1">
+     <widget class="QLabel" name="cate_label">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>190</y>
-        <width>451</width>
-        <height>71</height>
+        <x>520</x>
+        <y>80</y>
+        <width>201</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>18</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
       <property name="text">
-       <string>If you want to delete Category Items, </string>
+       <string>&lt;Category Edit&gt;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="Category_lable2">
+     <widget class="QLabel" name="cate_label_2">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>280</y>
-        <width>451</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>12</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>click the Item and click the delete button.</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="Category_lbel_main">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>130</y>
-        <width>191</width>
-        <height>51</height>
+        <x>520</x>
+        <y>150</y>
+        <width>361</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1728,40 +1767,97 @@ color:rgb(0,0,0);</string>
        </font>
       </property>
       <property name="text">
-       <string>&lt;Category Edit&gt;</string>
+       <string>If you want to delete category items,</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="cate_label_3">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>360</y>
-        <width>64</width>
+        <x>520</x>
+        <y>210</y>
+        <width>381</width>
         <height>31</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
       <property name="text">
-       <string>Input :</string>
+       <string>click the item and click the delete button.</string>
       </property>
      </widget>
-     <widget class="QListWidget" name="Cate_list">
+     <widget class="QLabel" name="cate_label_4">
       <property name="geometry">
        <rect>
-        <x>90</x>
-        <y>120</y>
-        <width>441</width>
-        <height>371</height>
+        <x>510</x>
+        <y>300</y>
+        <width>71</width>
+        <height>31</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Input : </string>
+      </property>
      </widget>
+     <widget class="QLabel" name="background_in">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>1011</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(243, 243, 255)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::WinPanel</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="background">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1061</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image:url(:/resourcefile/background.png)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>background</zorder>
+     <zorder>background_in</zorder>
+     <zorder>Cate_list</zorder>
+     <zorder>Category_btn</zorder>
+     <zorder>Category_btn_2</zorder>
+     <zorder>Category_btn2</zorder>
+     <zorder>cateline_edit</zorder>
+     <zorder>cate_label</zorder>
+     <zorder>cate_label_2</zorder>
+     <zorder>cate_label_3</zorder>
+     <zorder>cate_label_4</zorder>
     </widget>
    </widget>
   </widget>

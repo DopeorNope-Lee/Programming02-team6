@@ -1,8 +1,11 @@
 C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Lee/Documents/C++/Finaldraft/mainwindow.h \
   C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/Finaldraft_autogen/moc_predefs.h \
   C:/Qt/6.1.3/mingw81_64/include/QtCore/QDeadlineTimer \
+  C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+  C:/Qt/6.1.3/mingw81_64/include/QtCore/QFileInfo \
   C:/Qt/6.1.3/mingw81_64/include/QtCore/QObject \
   C:/Qt/6.1.3/mingw81_64/include/QtCore/QScopedPointer \
+  C:/Qt/6.1.3/mingw81_64/include/QtCore/QString \
   C:/Qt/6.1.3/mingw81_64/include/QtCore/QStringList \
   C:/Qt/6.1.3/mingw81_64/include/QtCore/QtCore \
   C:/Qt/6.1.3/mingw81_64/include/QtCore/QtCoreDepends \
@@ -251,16 +254,21 @@ C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/
   C:/Qt/6.1.3/mingw81_64/include/QtSql/qtsql-config.h \
   C:/Qt/6.1.3/mingw81_64/include/QtSql/qtsqlglobal.h \
   C:/Qt/6.1.3/mingw81_64/include/QtSql/qtsqlversion.h \
+  C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QDialog \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMessageBox \
+  C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QTableWidget \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractitemview.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qcombobox.h \
+  C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qframe.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qlistview.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qslider.h \
@@ -268,6 +276,8 @@ C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qstyleditemdelegate.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtabbar.h \
+  C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtableview.h \
+  C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtablewidget.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -511,4 +521,8 @@ C:/Users/Lee/Documents/C++/build-Finaldraft-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Lee/Documents/C++/Finaldraft/monitoring1.h \
+  C:/Users/Lee/Documents/C++/Finaldraft/monitoring2.h \
+  C:/Users/Lee/Documents/C++/Finaldraft/monitoring3.h \
+  C:/Users/Lee/Documents/C++/Finaldraft/monitoring_edit.h

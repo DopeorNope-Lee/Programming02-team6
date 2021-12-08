@@ -1,15 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include <QtSql>
-#include <QtDebug>
-#include <QFileInfo>
-#include <QMessageBox>
-#include <QTableWidget>
-#include <QDebug>
-#include "monitoring1.h"
-#include "monitoring2.h"
-#include "monitoring3.h"
-#include <QVector>
+
+
 
 //global value for check key
 static int value;//planninng
@@ -90,6 +82,8 @@ void MainWindow::on_main_planning_btn_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
     update_plan_screen();
+
+
 }
 
 
@@ -414,8 +408,8 @@ void MainWindow::on_Category_btn_clicked()
             ui->plan_CategoryBox->insertItem(i,addingto);
         }
         QMessageBox MsgBox;
-        MsgBox.setWindowTitle("Saved");
-        MsgBox.setInformativeText(addthings+" saved at category! \n");
+        MsgBox.setWindowTitle("Added");
+        MsgBox.setInformativeText(addthings+" added at category! \n");
         MsgBox.setStandardButtons(QMessageBox::Ok );
         MsgBox.setDefaultButton(QMessageBox::Ok);
         if ( MsgBox.exec() == QMessageBox::Ok )
@@ -448,7 +442,6 @@ void MainWindow::on_Category_btn_2_clicked()
             QString addingto=ui->Cate_list->item(i)->text();
             ui->expense_CategoryBox->insertItem(i,addingto);
         }
-
     }
     else //planning page
     {
@@ -459,5 +452,15 @@ void MainWindow::on_Category_btn_2_clicked()
             ui->plan_CategoryBox->insertItem(i,addingto);
         }
     }
+    QMessageBox MsgBox;
+    MsgBox.setWindowTitle("Deleted");
+    MsgBox.setInformativeText( "Deleted\n");
+    MsgBox.setStandardButtons(QMessageBox::Ok );
+    MsgBox.setDefaultButton(QMessageBox::Ok);
+    if ( MsgBox.exec() == QMessageBox::Ok )
+    {
+        MsgBox.close();
+    }
+
 }
 

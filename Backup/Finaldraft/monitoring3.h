@@ -8,6 +8,7 @@
 #include <QMessageBox>
 #include <QDebug>
 #include <QString>
+
 namespace Ui {
 class Monitoring3;
 }
